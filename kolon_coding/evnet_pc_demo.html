@@ -185,119 +185,83 @@
                                     background: url("images/event50_tit_txt01.png") left top /auto 100% no-repeat;
                                     filter: blur(10px);
                                 }
-
-                                .event50 .video_wrap .video_title .sub_tit.active,
-                                .event50 .video_wrap .video_title p.active {
-                                    animation-delay: 2.2s;
+                                .event50 .video_wrap .video_title.act .sub_tit.active,
+                                .event50 .video_wrap .video_title.act p.active {
                                     animation-duration: 1s;
                                     animation-name: fadeOut;
                                     animation-fill-mode: forwards;
+                                }
+                                .event50 .video_wrap .video_title.act.move .sub_tit.active,
+                                .event50 .video_wrap .video_title.act.move p.active {
+                                    animation-duration: 0.2s;
+                                    animation-name: fadeOut;
+                                    animation-fill-mode: forwards;
+                                }
+                                .event50 .video_wrap .video_title.act .sub_tit,
+                                .event50 .video_wrap .video_title.act p {
+                                    transition: all 0.1s ease-out;
+                                }
+
+                                @keyframes fadeOut {
+                                0% {
+                                    opacity: 1;
+                                }
+                                100% {
+                                    opacity: 0;
+                                }
                                 }
 
                                 .num50_wrap {
                                     position: absolute;
                                     top: 66.5%;
-                                    left: 54%;
-                                    width: 14%;
+                                    left: 10.5%;
+                                    width: 29%;
                                     transition: all 1s ease-out;
+                                    z-index: 9;
                                 }
                                 .num50_wrap .num50 {
-                                    display: flex;
-                                    transition: all 1.5s ease-out;
-                                    transition-delay: 2s;
+                                    overflow: hidden;
+                                    z-index: 9;
+                                    transition: all 1s ease-out;
                                 }
                                 .num50_wrap .num50 .st50 {
+                                    float: left;
                                     width: 55%;
+                                    opacity: 0;
                                 }
                                 .num50_wrap .num50 .st_icon {
+                                    float: left;
                                     width: 43%;
                                     padding-left: 2%;
                                     opacity: 0;
-                                    transition: all 1.5s ease-out;
-                                    transition-delay: 2s;
-                                }
-                                .num50_wrap .num50.act {
-                                    width: 100%;
-                                    position: relative;
-                                    margin-left: -260%;
-                                }
-                                .num50_wrap .num50.act .st_icon {
-                                    opacity: 1;
                                 }
                                 .num50_wrap .num50 svg{
                                     width: 100%;
                                     height: auto;
                                 }
-                                .num50_wrap.move {
-                                    top: 140%;
-                                    z-index: 9;
+                                .num50_wrap .num50.act .st50 ,
+                                .num50_wrap .num50.act .st_icon{
+                                    opacity: 1;
                                 }
-
-                                /* .event50 .video_wrap .video_title .num50.active {
-                                    animation-delay: 2.2s;
-                                    animation-duration: 1.5s;
-                                    animation-name: leftMove;
+                                .num50_wrap .num50.show .st50 ,
+                                .num50_wrap .num50.show .st_icon{
+                                    opacity: 1 Im !important;
+                                    transition-delay: 0s !important;
+                                    transition: all 0.2 ease-out  !important;
+                                }
+                                .num50_wrap .num50.move{
+                                    transform: translateY(390%);
+                                }
+                                .num50_wrap .num50.move.down svg path{
+                                    animation: colorChange 1s ease-in-out;
                                     animation-fill-mode: forwards;
                                 }
 
-                                .event50 .video_wrap .video_title .num50.active .st_icon {
-                                    opacity: 1;
-                                    filter: blur(0);
+                                @keyframes colorChange {
+                                    0%{fill:#fff}
+                                    100%{fill: #002915}
                                 }
 
-                                @keyframes fadeOut {
-                                    from {
-                                        opacity: 1;
-                                    }
-                                    to {
-                                        opacity: 0;
-                                    }
-                                }
-                                @keyframes fadeIn {
-                                    from {
-                                        opacity: 0;
-                                    }
-                                    to {
-                                        opacity: 1  !important;
-                                    }
-                                }
-
-                                @keyframes leftMove {
-                                    from {
-                                        left: 73%;
-                                    }
-                                    to {
-                                        left: 30%;
-                                    }
-                                } */
-                                /* .event50 .video_wrap .video_title.act p,
-                                .event50 .video_wrap .video_title.act .sub_tit{
-                                    opacity: 0;
-                                }
-                                .event50 .video_wrap .video_title.act .num50{
-                                    left: 13%;
-                                    transition-delay: 1s;
-                                    transition-timing-function: ease-out;
-                                    animation-delay: 2s;
-                                    animation-duration: 3s;
-                                    animation-name: slidein;
-                                }
-
-                                @keyframes slidein {
-                                    from {
-                                        top: 0;
-                                    }
-                                    to {
-                                        top: 50%;
-                                        width: 30%;
-                                    }
-                                }
-                                .event50 .video_wrap .video_title.act .num50 .st_icon{
-                                    opacity: 1;
-                                    filter: blur(0);
-                                    transform: scale(1);
-                                    transition-timing-function: ease-out
-                                } */
                                 .event50 .video_wrap .video_title {
                                     width: 60%;
                                     height: 8.155%;
@@ -346,6 +310,11 @@
                                     width:6.019%;
                                     background-position: 100% 0;
                                 }
+                                .event50 .video_wrap .video_title .txt11 {
+                                    width:12.319%;
+                                    margin-left: 3.5%;
+                                    background: url("images/event50_tit_txt01_50.png") left top /auto 100% no-repeat;
+                                }
                                 .event50 .video_wrap .video_title .num50{
                                     width: 12.583%;
                                     position: absolute;
@@ -356,18 +325,10 @@
                                 .event50 .video_wrap .video_title .num50 svg{
                                     width: 100%;
                                     height: auto;
+                                    color: #fff;
                                 }
-                                .event50 .video_wrap .video_title .num50 .st_icon{
-                                    position: absolute;
-                                    height: 100%;
-                                    top: 0;
-                                    right: 0;
-                                    width: 78%;
-                                    opacity: 0;
-                                    transition: all 0.8s;
-                                    filter: blur(10px);
-                                    transition-delay: 1.5s;
-                                    transform: scale(1.3);
+                                .event50 svg path {
+                                    fill: #fff 
                                 }
                                 .event50 .video_wrap .video_title .sub_tit {
                                     width:100%;
@@ -464,6 +425,7 @@
                                 }
                                 .event50 .notice {
 									width: 100%;
+                                    display: none;
                                 }
                                 .event50 .noticeBtn{
                                     font-size: 0;
@@ -486,17 +448,40 @@
 									transform:scaleY(-1);
 									background-position: right 10% top 52%;
 								}
-                                .event50 .archive_wrap {
-									padding-top: 8.59375vw;
+                                .event50 .notice_bottom {
+									width: 100%;
+									height: 8.59375vw;
 									background-color: #111;
                                  }
+                                 
+								.event50 #con04 .swiper-container {
+									position: absolute;
+									left: 0;
+									bottom: 29.79890310786106%;
+									width: 100%;
+								}
+								.event50 #con04 .swiper-container .swiper-wrapper { -webkit-transition-timing-function: linear !important; transition-timing-function: linear !important; }
+								.event50 #con04 .swiper-container .swiper-wrapper .swiper-slide { opacity: 1; background: transparent; position: relative; }
+								.event50 #con04 .swiper-container .swiper-wrapper .swiper-slide:hover .slide_hover{
+									opacity: 1;
+								}
+								.event50 #con04 .swiper-container .slide_hover{
+									position: absolute;
+									top: 0;
+									left: 0;
+									width: 100%;
+									opacity: 0;
+									transition:.3s ease all;
+									display: block;
+								}
+
                                 /* reveal */
                                 .reveal {
                                     opacity: 0;
-                                    -moz-transition: all 1.2s ease;
-                                    -o-transition: all 1.2s ease;
-                                    -webkit-transition: all 1.2s ease;
-                                    transition: all 1.2s ease;
+                                    -moz-transition: all 1s ease-out;
+                                    -o-transition: all 1s ease-out;
+                                    -webkit-transition: all 1s ease-out;
+                                    transition: all 1s ease-out;
                                 }
                                 .reveal--top {
                                     -webkit-transform: translate(0, 5em);
@@ -562,6 +547,7 @@
                                 .delay3600{transition-delay: 3.6s;}
                                 .delay5000{transition-delay: 5s;}
                             </style>
+                            
                             <div class="full-width">
                                 <div class="event50">
                                     <section class="video_wrap">
@@ -569,11 +555,11 @@
                                             <iframe src="https://www.youtube.com/embed/vNg7PWfhw44?rel=0&autoplay=1&mute=1&playlist=vNg7PWfhw44&loop=1&controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                                         </div>
                                         <div class="num50_wrap ">
-                                            <div class="num50">
-                                                <div class="st50 reveal">
+                                            <div class="num50 ">
+                                                <div class="reveal st50 ">
                                                     <svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 304 187"><path d="M216.5 1.1c-36.3 4.2-59.6 31-64.4 74.3-3.1 27.3.5 52.9 10 72.5 4.3 8.9 6.4 11.7 13.3 18.6 6.4 6.4 9.9 9.1 16.6 12.3 12.6 6.2 19.1 7.6 35 7.6 15.8 0 22.3-1.4 35-7.5 6.9-3.4 10.1-5.8 17-12.8 7.1-7.1 9.4-10.3 13.2-18.1 7.7-15.5 10.8-31.6 10.8-54.8 0-33.3-7.9-56.4-24.9-73.2-11.5-11.4-23.8-17-41.6-19-9.9-1.1-10-1.1-20 .1zm21.8 39.2c9.2 2.6 16.7 13.4 20.3 29.2 2.4 10.6 2.5 37.6.1 48.3-4.8 21.7-16.8 32.6-34 30.8-14.7-1.5-23.2-11.1-27.4-30.9-2.4-11-2.4-38 0-48.5 5.6-25 19.8-35 41-28.9zM23.7 7.3C23.3 8.5 19 28.4 14 51.5 9 74.6 4.7 94.2 4.4 95.2c-.4 1.3 2.8 2.7 17.8 7.7 10.1 3.4 19 6.1 19.9 6.1.8 0 2.8-1.3 4.3-2.9 4.9-5.1 11.9-7.6 21.6-7.5 7.2 0 9.3.4 13.5 2.6 6.1 3.2 8.7 5.9 11.4 11.8 2.7 5.9 2.8 16.9.2 22.5-2.3 5.1-8.5 10.7-14.4 13-6.2 2.3-17.5 1.7-23.3-1.3-6.3-3.2-12.2-10.5-14.1-17.4-.9-3.2-2.1-5.8-2.7-5.8-2.4.1-37.6 7.7-38.2 8.3-1.1 1.1 2.6 14 5.9 20.2 1.9 3.6 6.4 9.3 11.2 14 12.4 12.5 27.3 19 46.5 20.2 10.3.7 22.5-.9 32.2-4.2 20-6.8 35.2-23 40.3-43 3.5-13.7 1.1-35-5.2-46.8-6.7-12.5-21.1-22.7-36.9-26.3-14.9-3.3-35.6-.7-44.4 5.6-1.7 1.2-3 1.9-3 1.6 0-.7 6-28.7 6.6-30.9.5-1.6 3.1-1.7 37-1.7H127V5H24.2l-.5 2.3z"/></svg>
                                                 </div>
-                                                <div class="st_icon ">
+                                                <div class="reveal st_icon ">
                                                     <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="334.667" height="265.333" viewBox="0 0 251 199"><path d="M41.5 30.1C21.2 46.6 3.5 60.9 2.3 61.8L0 63.5l8.1 10c4.4 5.5 8.9 10.8 9.8 11.8 1.8 1.8 2.6 1.3 23.7-15.7C53.6 59.9 63.8 52 64.2 52c.4 0 .8 2.9.8 6.3v6.4L35.5 82.4 6.1 100.1l6.5 10.7c3.6 5.9 6.9 11.1 7.4 11.6s8.6-3.7 19.2-9.9c10.1-6 19.8-11.7 21.6-12.8l3.2-1.9v4.4c0 4.6 2.3 1.6-47 61.3l-5.8 7.1 11.4 9.4c6.3 5.2 11.8 9.6 12.2 9.7.4.1 7-7.5 14.7-16.8l14-17 .3 21.6.2 21.5h34v-19c0-10.5.3-19 .6-19s9.6 6.1 20.6 13.5c11 7.4 20.4 13.5 20.9 13.5.8 0 17.2-23 16.7-23.5-.2-.1-2-1.4-4.2-2.8l-3.8-2.6 7.1-3.5c3.9-2 7.3-3.6 7.6-3.6.3 0 .5 10.6.5 23.5V199l16.8-.2 16.7-.3.3-16.8c.1-9.2.5-16.7.8-16.7.3 0 1.8.8 3.2 1.9 1.5 1 9.5 6.1 17.9 11.4l15.1 9.5 6.4-9.6c3.6-5.4 7.2-10.9 8.2-12.3l1.7-2.6-26.6-16.9-26.5-16.9v-7.8c0-4.2.2-7.7.4-7.7s7.3 6.5 15.7 14.5l15.4 14.5 10.8-10.7 10.8-10.8-16.8-16c-9.2-8.7-21.2-20.2-26.6-25.5l-9.8-9.5.3-8.3.3-8.2 15.7 9.5 15.8 9.4 3.3-5.2c10.4-16.3 12.9-20.9 12.1-21.7-.9-.9-60.9-38.1-64.6-40.1-1.6-.8-6.3 1.6-28 14.5-14.3 8.6-26.5 15.6-27 15.6s-11.2-8.1-23.8-18C89.5 8.1 79 0 78.9.1c-.2 0-17 13.6-37.4 30zM164 50.7c-.1 2.1-3.7 7-14.6 19.8-8 9.3-15.1 16.9-15.7 16.7-3-.7-33.3-12.6-34.4-13.5-1.5-1.1-1.8-18.2-.4-19.1.4-.3 6.2 3.5 12.7 8.5 6.6 5 13.1 10 14.5 11l2.7 1.9 5.3-7.1c4.8-6.3 6.7-7.7 17.4-13.9 6.6-3.8 12.1-7 12.3-7 .1 0 .2 1.2.2 2.7zm0 57.3v10.9l-21.3 10.7-21.4 10.7-11.4-7.9-11.4-8-.3-9.2c-.1-5.1.1-9.2.5-9.2.5 0 7.3 2.5 15.3 5.6 8 3.1 17.3 6.6 20.7 7.9l6.1 2.3 10.9-12.3c5.9-6.8 11.1-12.4 11.6-12.4.4-.1.7 4.8.7 10.9z"/></svg>
                                                 </div>
                                             </div>
@@ -589,6 +575,7 @@
                                             <p class="reveal txt08 delay300"></p> <!-- o -->
                                             <p class="reveal txt09 delay600"></p> <!-- r -->
                                             <p class="reveal txt10 delay300"></p> <!-- t -->
+                                            <p class="reveal txt11 delay600"></p> <!-- 50 -->
                                             
                                             <div class="reveal sub_tit">
                                                 <img src="images/event50_tit_txt02.png" alt="" class=" reveal txt-1">
@@ -672,17 +659,49 @@
                                         <div class="notice_bottom"></div>
                                         <section class="archive_wrap" id="con04">
                                             <img src="images/event50_con04_coming.jpg" alt="">
+                                            <!-- <img src="images/event50_con04.jpg" alt="" usemap="#con04Map">
+                                                <map name="con04Map" id="con04Map">
+                                                    <area shape="rect" target="_blank" coords="726,852,1196,927" href="#" alt="50주년 아카이브 방문하기">
+                                                </map>
+                                                <div class="swiper-container">
+                                                    <div class="swiper-wrapper">
+                                                        <div class="swiper-slide">
+                                                            <img src="images/event50_con04_slide01.png" alt="">
+                                                            <img src="images/event50_con04_slide01_over.png" alt="" class="slide_hover">
+                                                        </div>
+                                                        <div class="swiper-slide">
+                                                            <img src="images/event50_con04_slide01.png" alt="">
+                                                            <img src="images/event50_con04_slide01_over.png" alt="" class="slide_hover">
+                                                        </div>
+                                                        <div class="swiper-slide">
+                                                            <img src="images/event50_con04_slide01.png" alt="">
+                                                            <img src="images/event50_con04_slide01_over.png" alt="" class="slide_hover">
+                                                        </div>
+                                                        <div class="swiper-slide">
+                                                            <img src="images/event50_con04_slide01.png" alt="">
+                                                            <img src="images/event50_con04_slide01_over.png" alt="" class="slide_hover">
+                                                        </div>
+                                                        <div class="swiper-slide">
+                                                            <img src="images/event50_con04_slide01.png" alt="">
+                                                            <img src="images/event50_con04_slide01_over.png" alt="" class="slide_hover">
+                                                        </div>
+                                                        <div class="swiper-slide">
+                                                            <img src="images/event50_con04_slide01.png" alt="">
+                                                            <img src="images/event50_con04_slide01_over.png" alt="" class="slide_hover">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            <div class="conBottom"></div> -->
                                         </section>
 
                                     </section>
                                 </div>
-
                             </div>
-	                        <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-rwdImageMaps/1.6/jquery.rwdImageMaps.min.js"></script>
+	                        
+                            <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-rwdImageMaps/1.6/jquery.rwdImageMaps.min.js"></script>
                             <script>
 								scriptQueue.push(function () {
 									$(document).ready(function() {
-
                                         var Swiper1 = new Swiper('.event50 .ticket .swiper', {
 											spaceBetween: 10,
 											centeredSlides: false,
@@ -695,6 +714,19 @@
 											allowTouchMove: false,
 											disableOnInteraction: true
 										});
+                                        
+										// var SwiperTop = new Swiper('.event50 #con04 .swiper-container', {
+										// 	spaceBetween: 0,
+										// 	centeredSlides: false,
+										// 	speed: 8000,
+										// 	autoplay: {
+										// 		delay: 1,
+										// 	},
+										// 	loop: true,
+										// 	slidesPerView: 6,
+										// 	allowTouchMove: false,
+										// 	disableOnInteraction: true
+										// });
 
                                         $('.event50 img[usemap]').rwdImageMaps();
 
@@ -711,70 +743,53 @@
                                         });
 									});
                                     
+                                    let lastScrollY = 0;
                                     function reveal() {
                                         let reveals = document.querySelectorAll(".reveal");
-                                        let aniTit = document.querySelector(".num50")
+                                        let aniTit = document.querySelector(".num50");
+                                        let vdTit = document.querySelector(".video_title");
+                                        let sec2 = document.querySelector('.sport50_wrap');
+                                        let sec3 = document.querySelector('.ev50_wrap');
 
                                         for (var i = 0; i < reveals.length; i++) {
                                             let windowHeight = window.innerHeight;
                                             let elementTop = reveals[i].getBoundingClientRect().top;
-                                            let elementVisible =  200;
+                                            let elementVisible =  100;
 
                                             if (elementTop <= windowHeight - elementVisible) {
                                                 reveals[i].classList.add("active");
-                                                
-                                                if(elementVisible <= windowHeight -  aniTit.getBoundingClientRect().top ) {
-                                                    setTimeout(function(){
-                                                        aniTit.classList.add("act");
-                                                    },1300);
-                                                } 
-
-                                                // let aniTit = document.querySelectorAll(".video_title .reveal");
-                                                // for (var i = 0; i < aniTit.length; i++) {
-                                                //     if(aniTit[i].classList.contains('active')  ) {
-                                                //         setTimeout(function(){
-                                                //             console.log("aa")
-                                                //             aniTit[i].classList.add('act')
-                                                //         },1300)
-                                                //     }
-                                                // }
                                             } else {
                                                 reveals[i].classList.remove("active");
-                                                
-                                                
+                                            }
+
+                                            if(elementVisible <= windowHeight -  aniTit.getBoundingClientRect().top  && elementVisible <= sec2.getBoundingClientRect().top) {
+                                                setTimeout(function(){
+                                                    vdTit.classList.add("act");
+                                                },2000);
+                                                setTimeout(function(){
+                                                    aniTit.classList.add("act");
+                                                },3000);
+                                                setTimeout(function(){
+                                                    vdTit.style.display = 'none';
+                                                },3500);
+                                            } else if( elementVisible >= sec2.getBoundingClientRect().top   && elementVisible <= sec3.getBoundingClientRect().top) {
+                                                vdTit.classList.remove("act","move");
+                                                aniTit.classList.add("act","move","down")
+                                            } else {
+                                                vdTit.classList.remove("act","move");
+                                                aniTit.classList.remove("move","down");
                                             }
                                         }
                                     }
                                     
                                     
                                     reveal();
-                                    
-                                    var currentPosition = parseInt($(".num50").css("top"));
-
                                     $(window).scroll(function(e){
                                         e.preventDefault();
                                         reveal();
-
-
-                                        // if(($('.video_title').offset().top - $(window).scrollTop()) <=  windowHeight*0.5) {
-                                        //     var position = $(window).scrollTop();
-                                        //     $(".num50").stop().animate({"top":'calc('+ position+currentPosition+"px" + ')'},1000); 
-                                        // }
-
-                                        // if($('.video_title .reveal').hasClass('active')) {
-                                        //     setTimeout(function(){
-                                        //         $('.video_title').addClass('act');
-                                        //         //var position = $(window).scrollTop();
-                                        //         //$(".quickmenu").stop().animate({"top":position+currentPosition+"px"},1000); 
-                                        //     },1300);
-                                            
-                                        // }
-
                                         var winHeight = window.innerHeight;
                                         var position = $(window).scrollTop();
                                         var scr = $(this).scrollTop()
-										var topNum50 = $('.event50 .num50_wrap').offset().top ;
-										var endNum50 = $('.event50 .ev50_wrap').offset().top - winHeight*0.5;
 										var topArea = $('.event50 .scroll_navbox').offset().top
 										if (scr > topArea) {
 											$('.event50 .nav50').addClass('fixed')
@@ -782,11 +797,6 @@
 											$('.event50 .nav50').removeClass('fixed')
 										}
 
-                                        if (topNum50 < scr) {
-											$('.event50 .num50_wrap ').addClass('move');
-										} else {
-											$('.event50 .num50_wrap ').removeClass('move')
-										}
                                     });
 								});
                             </script>
