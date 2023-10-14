@@ -1,0 +1,255 @@
+.kolonsport-site .kolon-wrap .kolon-header .h-wrap {
+  height: 15.066vw; }
+  .kolonsport-site .kolon-wrap .kolon-header .h-wrap ul {
+    border-bottom: 0; }
+  .kolonsport-site .kolon-wrap .kolon-header .h-wrap .h1-logo a {
+    width: 12.5vw;
+    height: 9.86vw;
+    margin-left: 0;
+    background: url(/_ui/img/kolonsport/m/logo.png) no-repeat;
+    background-size: contain;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%); }
+  .kolonsport-site .kolon-wrap .kolon-header .h-wrap .cart {
+    width: 8.66vw;
+    background: url(/_ui/img/kolonsport/m/icn/icn-cart.png) no-repeat center center;
+    background-size: 3.46vw; }
+
+.kolonsport-site .kolon-wrap.main .h-wrap {
+  height: 15.066vw; }
+  .kolonsport-site .kolon-wrap.main .h-wrap ul li .search {
+    width: 5vw;
+    height: 6vw;
+    left: 72%;
+    background: url(/_ui/img/kolonsport/m/icn/icn-search.png) no-repeat center;
+    background-size: 3.733vw; }
+
+.kolonsport-site .kolon-wrap ul li .search {
+  width: 5vw;
+  height: 6vw;
+  left: 56%;
+  background: url(/_ui/img/kolonsport/m/icn/icn-search.png) no-repeat center;
+  background-size: 3.733vw; }
+
+.kolonsport-site footer .footer .f-wrap dl dd a {
+  background: none;
+  text-decoration: none; }
+  .kolonsport-site footer .footer .f-wrap dl dd a.business {
+    border-bottom: 1px solid;
+    padding-bottom: 1px;
+    padding-right: 0; }
+
+.kolonsport-site footer .footer .f-wrap .copyright a {
+  background: url("/_ui/img/m/icn/icn-arrow09.png") no-repeat right center;
+  text-decoration: none;
+  background-size: 1.333vw auto; }
+
+.kolonsport-site footer .footer .f-wrap .gnb {
+  padding-bottom: 3.733vw;
+  border-bottom: 1px solid #aaa; }
+  .kolonsport-site footer .footer .f-wrap .gnb ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center; }
+    .kolonsport-site footer .footer .f-wrap .gnb ul li {
+      margin-left: 0;
+      -webkit-box-flex: 1;
+      -webkit-flex: auto;
+          -ms-flex: auto;
+              flex: auto; }
+
+.kolonsport-site footer .footer .f-wrap .box-sns {
+  padding: 6.266vw 0; }
+  .kolonsport-site footer .footer .f-wrap .box-sns a, .kolonsport-site footer .footer .f-wrap .box-sns img {
+    vertical-align: middle; }
+  .kolonsport-site footer .footer .f-wrap .box-sns a {
+    font-size: 0; }
+    .kolonsport-site footer .footer .f-wrap .box-sns a img {
+      width: 4vw;
+      margin-right: 8vw; }
+  .kolonsport-site footer .footer .f-wrap .box-sns .award {
+    width: 40.933vw; }
+
+@media (min-width: 750px) {
+  .kolonsport-site .kolon-wrap .kolon-header .h-wrap {
+    height: 113px; }
+    .kolonsport-site .kolon-wrap .kolon-header .h-wrap .h1-logo a {
+      width: 90px;
+      height: 71px; }
+    .kolonsport-site .kolon-wrap .kolon-header .h-wrap .search {
+      width: 37px;
+      height: 45px;
+      background-size: 28px; }
+    .kolonsport-site .kolon-wrap .kolon-header .h-wrap .cart {
+      width: 65px;
+      background-size: 26px; }
+  .kolonsport-site .kolon-wrap.main .h-wrap ul li .search {
+    width: 37.5px;
+    height: 45px;
+    background-size: 28px; }
+  .kolonsport-site footer .footer .f-wrap .copyright a {
+    background: url("/_ui/img/m/icn/icn-arrow09.png") no-repeat right center;
+    background-size: 10px auto; }
+  .kolonsport-site footer .footer .f-wrap .gnb {
+    padding-bottom: 28px; }
+  .kolonsport-site footer .footer .f-wrap .box-sns {
+    padding: 47px 0; }
+    .kolonsport-site footer .footer .f-wrap .box-sns a, .kolonsport-site footer .footer .f-wrap .box-sns img {
+      vertical-align: middle; }
+    .kolonsport-site footer .footer .f-wrap .box-sns a {
+      font-size: 0; }
+      .kolonsport-site footer .footer .f-wrap .box-sns a img {
+        width: 30px;
+        margin-right: 60px; }
+    .kolonsport-site footer .footer .f-wrap .box-sns .award {
+      width: 307px; } }
+
+.kolonsport-site .scr-navi {
+  height: 15.6vw;
+  border-top: 2px solid #e8e8e8; }
+  .kolonsport-site .scr-navi .swiper-slide {
+    padding: 0 5.333vw; }
+    .kolonsport-site .scr-navi .swiper-slide:first-child {
+      padding-left: 0; }
+    .kolonsport-site .scr-navi .swiper-slide:last-child {
+      padding-right: 0; }
+  .kolonsport-site .scr-navi a {
+    height: auto;
+    line-height: 5.333vw;
+    border-bottom: .533vw solid #fff; }
+    .kolonsport-site .scr-navi a:hover {
+      border-bottom: .533vw solid #000; }
+
+.kolonsport-site .fixed-navi {
+  height: 15.6vw;
+  border-top: 2px solid #e8e8e8; }
+  .kolonsport-site .fixed-navi .wrap-navi-list {
+    overflow: hidden;
+    padding: 0 4.666vw;
+    line-height: 15.6vw; }
+    .kolonsport-site .fixed-navi .wrap-navi-list .navi-list {
+      float: left;
+      padding: 0 4.266vw;
+      font-size: 3.466vw; }
+      .kolonsport-site .fixed-navi .wrap-navi-list .navi-list:first-child {
+        padding-left: 0; }
+      .kolonsport-site .fixed-navi .wrap-navi-list .navi-list:last-child {
+        padding-right: 0; }
+    .kolonsport-site .fixed-navi .wrap-navi-list a {
+      color: #adadad; }
+      .kolonsport-site .fixed-navi .wrap-navi-list a.on {
+        color: #1f1f1f; }
+
+.kolonsport-site .square-banner a .txt-box .tit {
+  font-size: 6.66vw; }
+
+.kolonsport-site .square-banner a .txt-box span {
+  font-size: 3.733vw; }
+
+.kolonsport-site .scr-prod .swiper-wrapper .swiper-slide {
+  margin: 0 .933vw; }
+  .kolonsport-site .scr-prod .swiper-wrapper .swiper-slide .prod-img {
+    position: relative; }
+    .kolonsport-site .scr-prod .swiper-wrapper .swiper-slide .prod-img .list-no {
+      position: absolute;
+      display: block;
+      width: 5.6vw;
+      height: 5.6vw;
+      line-height: 5.33vw;
+      top: 1.2vw;
+      right: 1.466vw;
+      background: #dfdfdf;
+      font-size: 3.2vw;
+      color: #fff;
+      text-align: center;
+      border-radius: 50%; }
+    .kolonsport-site .scr-prod .swiper-wrapper .swiper-slide .prod-img::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.03); }
+  .kolonsport-site .scr-prod .swiper-wrapper .swiper-slide .txt-box {
+    padding-top: 2.666vw; }
+    .kolonsport-site .scr-prod .swiper-wrapper .swiper-slide .txt-box .tit {
+      white-space: normal;
+      height: 9.7vw; }
+    .kolonsport-site .scr-prod .swiper-wrapper .swiper-slide .txt-box .btm {
+      height: auto; }
+      .kolonsport-site .scr-prod .swiper-wrapper .swiper-slide .txt-box .btm .price {
+        position: static; }
+        .kolonsport-site .scr-prod .swiper-wrapper .swiper-slide .txt-box .btm .price.sold-out {
+          color: #9ba4b0; }
+
+.kolonsport-site .bnr-more {
+  display: block;
+  width: 7.733vw;
+  height: 7.733vw;
+  background: url(/_ui/img/m/icn/icn-more.png) no-repeat;
+  background-size: 100%;
+  font-size: 0;
+  text-indent: -9999px;
+  margin: 5.733vw auto 10.533vw; }
+
+.kolonsport-site .list2-prod > ul li .tit {
+  white-space: normal;
+  height: 9.7vw; }
+
+.kolonsport-site .list2-prod > ul li .txt-box .price {
+  padding-top: 0; }
+  .kolonsport-site .list2-prod > ul li .txt-box .price.sold-out {
+    color: #9ba4b0; }
+
+@media (min-width: 750px) {
+  .kolonsport-site .scr-navi {
+    height: 117px; }
+    .kolonsport-site .scr-navi .swiper-slide {
+      padding: 0 40px; }
+    .kolonsport-site .scr-navi a {
+      line-height: 40px; }
+      .kolonsport-site .scr-navi a:hover {
+        border-bottom: 4px solid #000; }
+  .kolonsport-site .fixed-navi {
+    height: 117px; }
+    .kolonsport-site .fixed-navi .wrap-navi-list {
+      padding: 35px;
+      line-height: 50px; }
+      .kolonsport-site .fixed-navi .wrap-navi-list .navi-list {
+        padding: 0 32px;
+        font-size: 26px; }
+  .kolonsport-site .square-banner a .txt-box .tit {
+    font-size: 50px; }
+  .kolonsport-site .square-banner a .txt-box span {
+    font-size: 28px; }
+  .kolonsport-site .scr-prod .swiper-wrapper .swiper-slide {
+    margin: 0 7px; }
+    .kolonsport-site .scr-prod .swiper-wrapper .swiper-slide .prod-img .list-no {
+      width: 42px;
+      height: 42px;
+      line-height: 40px;
+      top: 9px;
+      right: 11px;
+      font-size: 24px; }
+    .kolonsport-site .scr-prod .swiper-wrapper .swiper-slide .txt-box {
+      padding-top: 20px; }
+      .kolonsport-site .scr-prod .swiper-wrapper .swiper-slide .txt-box .tit {
+        white-space: normal;
+        height: 72px; }
+      .kolonsport-site .scr-prod .swiper-wrapper .swiper-slide .txt-box .btm {
+        height: auto; }
+  .kolonsport-site .bnr-more {
+    width: 58px;
+    height: 58px;
+    margin: 43px auto 79px; }
+  .kolonsport-site .list2-prod > ul li .tit {
+    white-space: normal;
+    height: 72px; }
+  .kolonsport-site .list2-prod > ul li .txt-box .price {
+    padding-top: 0; } }
+
+/*# sourceMappingURL=application.css.map */

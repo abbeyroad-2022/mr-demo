@@ -1,0 +1,184 @@
+.point {
+  margin: 78px 0 140px; }
+  .point h3 {
+    margin-bottom: 52px;
+    font-size: 22px;
+    color: #1f1f1f; }
+  .point .my-point {
+    color: #1f1f1f;
+    padding: 60px 48px;
+    border-top: 4px solid #000; }
+    .point .my-point ul {
+      text-align: center; }
+      .point .my-point ul li {
+        position: relative;
+        float: left;
+        width: 292px; }
+        .point .my-point ul li strong {
+          font-weight: normal;
+          display: block;
+          margin-bottom: 15px; }
+          .point .my-point ul li strong .tip {
+            font: 0/0 a;
+            vertical-align: middle;
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+            margin-top: -3px;
+            background: url("/_ui/img/pc/icn/icn-tip.png"); }
+        .point .my-point ul li span {
+          font-size: 40px;
+          font-weight: bold; }
+        .point .my-point ul li::before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 1px;
+          height: 100%;
+          display: block;
+          background-color: #f1f1f1; }
+        .point .my-point ul li:first-child::before {
+          display: none; }
+      .point .my-point ul::after {
+        content: '';
+        display: block;
+        clear: both; }
+  .point .order-guide {
+    line-height: 1.4;
+    text-align: right;
+    margin-top: -40px;
+    margin-bottom: 15px; }
+    .point .order-guide a {
+      font-size: 13px;
+      position: relative;
+      display: inline-block;
+      padding-right: 17px;
+      background: url("/_ui/img/pc/icn/icn-order-guide.png") no-repeat 100% 5px; }
+  .point .tab {
+    padding-bottom: 0; }
+  .point .search-point {
+    margin-bottom: 50px;
+    padding: 30px 40px;
+    background-color: #f8f8f8; }
+    .point .search-point .tab {
+      display: inline-block;
+      width: 341px;
+      background-color: #fff; }
+      .point .search-point .tab a {
+        color: #1f1f1f;
+        font-size: 13px;
+        height: 24px;
+        padding: 14px 0 0; }
+      .point .search-point .tab .on {
+        background-color: #898989; }
+        .point .search-point .tab .on a {
+          color: #fff; }
+    .point .search-point .date {
+      float: right; }
+      .point .search-point .date input {
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        height: 40px;
+        border: 1px solid #dedede;
+        padding: 0 10px;
+        cursor: pointer; }
+    .point .search-point::after {
+      content: '';
+      display: block;
+      clear: both; }
+  .point .point-table {
+    table-layout: fixed;
+    width: 100%;
+    border-top: 4px solid #000; }
+    .point .point-table th,
+    .point .point-table td {
+      text-align: center;
+      vertical-align: middle;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      height: 61px; }
+    .point .point-table th {
+      font-size: 14px;
+      color: #898989; }
+    .point .point-table td {
+      padding: 0 35px;
+      border-bottom: 1px solid #f1f1f1; }
+    .point .point-table .date {
+      color: #898989;
+      font-size: 13px;
+      width: 140px; }
+    .point .point-table .billing {
+      width: auto; }
+      .point .point-table .billing a {
+        color: #1f1f1f;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        line-height: 1.5;
+        font-size: 14px;
+        overflow: hidden;
+        display: inline-block;
+        max-width: 100%; }
+    .point .point-table .product .p-info {
+      text-align: left; }
+      .point .point-table .product .p-info span {
+        font-size: 11px;
+        color: #898989; }
+      .point .point-table .product .p-info .brand::after {
+        content: '';
+        display: inline-block;
+        width: 1px;
+        height: 8px;
+        margin: 0 6px;
+        background: #f1f1f1; }
+    .point .point-table .product .p-name {
+      text-align: left;
+      font-size: 14px;
+      color: #1f1f1f; }
+      .point .point-table .product .p-name a {
+        display: block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        margin-top: 4px;
+        color: #1f1f1f; }
+    .point .point-table .price {
+      width: 210px;
+      font-size: 14px; }
+    .point .point-table .plus,
+    .point .point-table .minus {
+      width: 140px;
+      font-size: 14px; }
+    .point .point-table tbody .price {
+      text-align: right; }
+    .point .point-table tbody .plus {
+      color: #1f1f1f;
+      font-weight: bold;
+      text-align: right; }
+    .point .point-table tbody .minus {
+      color: #ff0000;
+      font-weight: bold;
+      text-align: right; }
+
+.layer-point .layer {
+  font-size: 16px; }
+  .layer-point .layer .bul-list {
+    margin-bottom: 35px; }
+    .layer-point .layer .bul-list li {
+      position: relative;
+      margin-top: 10px;
+      padding-left: 8px;
+      font-size: 14px;
+      color: #898989; }
+      .layer-point .layer .bul-list li:first-child {
+        margin-top: 0; }
+      .layer-point .layer .bul-list li::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 10px;
+        width: 2px;
+        height: 2px;
+        background-color: #c1c1c1; }
+
+/*# sourceMappingURL=Point.css.map */

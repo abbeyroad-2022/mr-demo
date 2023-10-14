@@ -1,0 +1,31 @@
+.kolonsport-site .about-content {
+  padding: 2.66vw 7.2vw 9.6vw; }
+  .kolonsport-site .about-content a {
+    display: inline-block; }
+    .kolonsport-site .about-content a.about-title {
+      max-width: 90%;
+      font-size: 3.466vw;
+      font-weight: 900;
+      color: #1f1f1f;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis; }
+    .kolonsport-site .about-content a.icn-share {
+      float: right;
+      width: 4.666vw;
+      height: 6.66vw;
+      background: url("/_ui/img/kolonsport/m/icn/icn-share.png") no-repeat center;
+      background-size: 3.066vw;
+      text-indent: -9999px; }
+
+@media (min-width: 750px) {
+  .kolonsport-site .about-content {
+    padding: 20px 54px 72px; }
+    .kolonsport-site .about-content a.about-title {
+      font-size: 26px; }
+    .kolonsport-site .about-content a.icn-share {
+      width: 35px;
+      height: 50px;
+      background-size: 23px; } }
+
+/*# sourceMappingURL=About.css.map */

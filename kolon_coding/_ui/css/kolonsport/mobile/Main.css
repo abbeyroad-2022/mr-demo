@@ -1,0 +1,94 @@
+.kolonsport-site .main .scr-navi {
+  max-width: 750px;
+  border-bottom: 0; }
+
+.kolonsport-site .prod-list-top {
+  margin-bottom: 0; }
+  .kolonsport-site .prod-list-top .scr-prod {
+    margin-bottom: 0; }
+
+.kolonsport-site .video-wrap {
+  position: relative;
+  width: 100%;
+  height: 106.66vw;
+  background-color: #000; }
+  .kolonsport-site .video-wrap iframe {
+    width: 100% !important;
+    height: 100% !important;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%); }
+  .kolonsport-site .video-wrap .bg-poster {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: contain; }
+  .kolonsport-site .video-wrap .video-play {
+    position: absolute;
+    width: 12.266vw;
+    height: 12.266vw;
+    top: 50%;
+    left: 50%;
+    background: url("/_ui/img/kolonsport/m/icn/icn-video-play.png") no-repeat;
+    background-size: contain;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%); }
+    .kolonsport-site .video-wrap .video-play img {
+      width: 100%; }
+
+.kolonsport-site .belt-banner a {
+  display: block;
+  width: 100%;
+  height: 26.66vw; }
+  .kolonsport-site .belt-banner a img {
+    width: 100%; }
+
+.kolonsport-site .kolon-menu .gnb ul li {
+  width: 9.5vw; }
+  .kolonsport-site .kolon-menu .gnb ul li .cart {
+    width: 8vw;
+    height: 8vw;
+    margin-top: -4.8vw;
+    background: url("/_ui/img/kolonsport/m/icn/icn-cart.png") no-repeat center center;
+    background-size: 4.266vw; }
+
+.kolonsport-site .kolon-menu nav .main-menu.toggle-nemu {
+  margin-right: 4.933vw;
+  margin-bottom: 3.2vw;
+  border-bottom: .266vw solid #eaeaea; }
+
+.kolonsport-site .kolon-menu nav .main-menu li {
+  border: 0; }
+  .kolonsport-site .kolon-menu nav .main-menu li.home > a {
+    font-weight: 600; }
+  .kolonsport-site .kolon-menu nav .main-menu li a {
+    padding: 3.33vw 0 3.33vw 2vw; }
+
+@media (min-width: 750px) {
+  .kolonsport-site .video-wrap {
+    height: 800px; }
+    .kolonsport-site .video-wrap .video-play {
+      width: 92px;
+      height: 92px; }
+  .kolonsport-site .belt-banner {
+    height: 200px; }
+  .kolonsport-site .kolon-menu .gnb ul li {
+    width: 71px; }
+    .kolonsport-site .kolon-menu .gnb ul li .cart {
+      width: 60px;
+      height: 60px;
+      margin-top: -36px;
+      background-size: 32px; }
+  .kolonsport-site .kolon-menu nav .main-menu.toggle-nemu {
+    margin-right: 37px;
+    margin-bottom: 24px;
+    border-bottom: 2px solid #eaeaea; }
+  .kolonsport-site .kolon-menu nav .main-menu li a {
+    padding: 25px 0 25px 15px; } }
+
+/*# sourceMappingURL=Main.css.map */

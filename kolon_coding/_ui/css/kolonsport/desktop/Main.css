@@ -1,0 +1,126 @@
+.kolonsport-site #kolon-content.main {
+  position: relative; }
+  .kolonsport-site #kolon-content.main .visual-slide {
+    margin-top: 38px; }
+    .kolonsport-site #kolon-content.main .visual-slide .txt-box {
+      position: absolute;
+      left: 40px;
+      bottom: 51px; }
+      .kolonsport-site #kolon-content.main .visual-slide .txt-box span {
+        display: block;
+        color: #000; }
+      .kolonsport-site #kolon-content.main .visual-slide .txt-box .brand {
+        color: #fff;
+        height: 16px;
+        margin-bottom: 26px; }
+        .kolonsport-site #kolon-content.main .visual-slide .txt-box .brand > span {
+          background: #000;
+          color: #fff;
+          float: left;
+          font-size: 12px;
+          line-height: 16px;
+          font-weight: 700;
+          margin-right: 2px;
+          padding: 0 6px; }
+      .kolonsport-site #kolon-content.main .visual-slide .txt-box .tit {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 36px;
+        margin-bottom: 13px;
+        letter-spacing: -2px; }
+      .kolonsport-site #kolon-content.main .visual-slide .txt-box .txt {
+        font-size: 15px;
+        letter-spacing: -.3px; }
+      .kolonsport-site #kolon-content.main .visual-slide .txt-box.white span {
+        color: #fff; }
+      .kolonsport-site #kolon-content.main .visual-slide .txt-box.white .brand > span {
+        background: #fff;
+        color: #000; }
+
+.kolonsport-site .main-notice-popup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  width: 434px;
+  min-height: 436px;
+  border: 3px solid #000; }
+  .kolonsport-site .main-notice-popup:not(:first-child) {
+    left: 442px; }
+  .kolonsport-site .main-notice-popup a {
+    color: #000; }
+  .kolonsport-site .main-notice-popup .content {
+    height: 436px; }
+    .kolonsport-site .main-notice-popup .content:not(.text) {
+      background-size: cover;
+      background-position: center; }
+      .kolonsport-site .main-notice-popup .content:not(.text) h3,
+      .kolonsport-site .main-notice-popup .content:not(.text) p {
+        display: none; }
+    .kolonsport-site .main-notice-popup .content.text {
+      height: 344px;
+      padding: 46px 56px;
+      background: #fff;
+      font-size: 14px;
+      line-height: 1; }
+      .kolonsport-site .main-notice-popup .content.text h3 {
+        display: inline-block;
+        padding-bottom: 5px;
+        margin-bottom: 37px;
+        font-weight: bold;
+        font-size: 20px;
+        border-bottom: 3px solid #1f1f1f; }
+      .kolonsport-site .main-notice-popup .content.text strong {
+        font-weight: bold; }
+
+.kolonsport-site .video-wrap {
+  position: relative;
+  width: 1200px;
+  height: 675px;
+  margin-top: 50px;
+  background-color: #000; }
+  .kolonsport-site .video-wrap iframe {
+    width: 100% !important; }
+  .kolonsport-site .video-wrap .poster {
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0; }
+  .kolonsport-site .video-wrap .video-play {
+    position: absolute;
+    width: 43px;
+    height: 43px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%); }
+
+.kolonsport-site .thumb-wrap {
+  margin-top: 35px; }
+
+.kolonsport-site .banner a {
+  margin-top: 35px; }
+
+.kolonsport-site .foot {
+  padding: 12px 14px;
+  background: #000;
+  color: #fff; }
+  .kolonsport-site .foot .checkbox + label {
+    font-size: 14px;
+    vertical-align: top; }
+  .kolonsport-site .foot .close {
+    float: right;
+    width: 50px;
+    height: 14px;
+    background: url("/_ui/img/kolonsport/pc/icn/icn-close-white.png") no-repeat 100% 50%;
+    background-size: auto 100%;
+    color: #fff;
+    font-size: 14px;
+    text-align: left;
+    vertical-align: top;
+    line-height: 14px; }
+
+/*# sourceMappingURL=Main.css.map */

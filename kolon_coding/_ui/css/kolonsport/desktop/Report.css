@@ -1,0 +1,99 @@
+.kolonsport-site .report {
+  margin: 78px 0 140px;
+  color: #1f1f1f; }
+  .kolonsport-site .report h3 {
+    color: #1f1f1f;
+    font-size: 22px;
+    margin-bottom: 52px; }
+  .kolonsport-site .report h5 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 65px;
+    margin-bottom: 28px;
+    padding-bottom: 16px;
+    border-bottom: 3px solid #1f1f1f; }
+    .kolonsport-site .report h5:first-child {
+      font-size: 14px; }
+  .kolonsport-site .report .checkbox {
+    margin-right: 12px; }
+  .kolonsport-site .report dl.report-form {
+    padding-top: 19px;
+    font-size: 14px; }
+    .kolonsport-site .report dl.report-form dt {
+      float: left;
+      width: 130px;
+      line-height: 31px;
+      margin-bottom: 26px; }
+      .kolonsport-site .report dl.report-form dt .required {
+        background-color: #f23d4e;
+        border-radius: 50%;
+        display: inline-block;
+        font: 0/0 a;
+        height: 4px;
+        margin-left: 5px;
+        vertical-align: middle;
+        width: 4px; }
+    .kolonsport-site .report dl.report-form dd {
+      width: 100%;
+      margin-bottom: 26px; }
+      .kolonsport-site .report dl.report-form dd .col-1 {
+        width: 213px; }
+      .kolonsport-site .report dl.report-form dd .col-2 {
+        width: 693px; }
+      .kolonsport-site .report dl.report-form dd .col-3 {
+        width: 821px; }
+      .kolonsport-site .report dl.report-form dd input,
+      .kolonsport-site .report dl.report-form dd select,
+      .kolonsport-site .report dl.report-form dd button {
+        height: 31px;
+        line-height: 31px;
+        font-size: 14px; }
+      .kolonsport-site .report dl.report-form dd select {
+        padding-bottom: 4px; }
+      .kolonsport-site .report dl.report-form dd textarea {
+        height: 130px;
+        resize: none;
+        font-size: 14px; }
+      .kolonsport-site .report dl.report-form dd input[type="file"] {
+        display: none; }
+      .kolonsport-site .report dl.report-form dd .uploadBtn {
+        height: 31px;
+        line-height: 31px;
+        font-size: 14px; }
+      .kolonsport-site .report dl.report-form dd input[type="radio"] {
+        margin-left: 12px;
+        display: inline-block;
+        position: relative;
+        width: 14px;
+        height: 14px;
+        margin-top: -2px;
+        border-radius: 0;
+        border: 0;
+        vertical-align: middle;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        background: #fff url("/_ui/img/kolonsport/pc/icn/icn-radio-off.png") no-repeat center;
+        background-size: 14px 14px;
+        -webkit-appearance: none;
+           -moz-appearance: none;
+                appearance: none; }
+        .kolonsport-site .report dl.report-form dd input[type="radio"]:checked {
+          background: #fff url("/_ui/img/kolonsport/pc/icn/icn-radio-on.png") no-repeat center;
+          background-size: 14px 14px; }
+      .kolonsport-site .report dl.report-form dd label {
+        margin-right: 7px; }
+  .kolonsport-site .report .agree_detail {
+    background-color: #f5f5f5;
+    color: #898989;
+    padding: 25px 24px;
+    line-height: 1.8;
+    font-size: 14px; }
+    .kolonsport-site .report .agree_detail li {
+      margin-left: 20px;
+      list-style: decimal; }
+  .kolonsport-site .report .buttons {
+    border: 0;
+    padding: 0;
+    margin-top: 47px; }
+
+/*# sourceMappingURL=Report.css.map */

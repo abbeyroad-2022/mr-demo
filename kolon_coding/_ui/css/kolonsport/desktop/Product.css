@@ -1,0 +1,35 @@
+.kolonsport-site .layer-point .layer {
+  -webkit-transform: translate(-50%, -50.1%);
+      -ms-transform: translate(-50%, -50.1%);
+          transform: translate(-50%, -50.1%); }
+
+.kolonsport-site .layer-point .inner .content {
+  padding: 25px 39px; }
+  .kolonsport-site .layer-point .inner .content h3 {
+    margin-top: 23px;
+    margin-bottom: 14px; }
+  .kolonsport-site .layer-point .inner .content li {
+    line-height: 1.2; }
+    .kolonsport-site .layer-point .inner .content li:last-child {
+      margin-top: 0; }
+  .kolonsport-site .layer-point .inner .content table {
+    width: 100%;
+    margin-top: 14px;
+    text-align: center; }
+    .kolonsport-site .layer-point .inner .content table thead th:last-child {
+      text-align: left;
+      padding-left: 25px; }
+    .kolonsport-site .layer-point .inner .content table tbody td:last-child {
+      text-align: left;
+      padding-left: 25px; }
+  .kolonsport-site .layer-point .inner .content .info-txt {
+    margin-top: 22px; }
+    .kolonsport-site .layer-point .inner .content .info-txt li {
+      padding: 0 0 0 14px;
+      line-height: 1.7; }
+      .kolonsport-site .layer-point .inner .content .info-txt li::before {
+        top: 10px;
+        left: 7px;
+        background-color: #898989; }
+
+/*# sourceMappingURL=Product.css.map */

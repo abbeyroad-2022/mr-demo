@@ -1,0 +1,48 @@
+.kolonsport-site .store-cont .store-search input:-moz-placeholder {
+  color: #000; }
+
+.kolonsport-site .store-cont .store-search input:-ms-input-placeholder {
+  color: #000; }
+
+.kolonsport-site .store-cont .store-search input::-webkit-input-placeholder {
+  color: #000; }
+
+.kolonsport-site .store-cont .store-search button {
+  color: #000;
+  border: .266vw solid #cfcfcf; }
+
+.kolonsport-site .store-cont .store-search-result .title {
+  padding-top: 3.733vw; }
+
+.kolonsport-site .store-cont .store-search-result .store-list .address {
+  margin-top: 4vw;
+  font-size: 3.733vw;
+  letter-spacing: -1px; }
+
+.kolonsport-site .store-cont .store-search-result .store-list .tel {
+  font-size: 3.733vw;
+  color: #898989;
+  letter-spacing: -1px; }
+
+.kolonsport-site .store-cont .store-search-result .store-list a {
+  padding: 1.733vw 4vw;
+  color: #000;
+  border: 0.266vw solid #bfbfbf; }
+
+@media (min-width: 750px) {
+  .kolonsport-site .store-cont .store-search select {
+    line-height: 81px; }
+  .kolonsport-site .store-cont .store-search button {
+    border: 2px solid #cfcfcf; }
+  .kolonsport-site .store-cont .store-search-result .title {
+    padding-top: 28px; }
+  .kolonsport-site .store-cont .store-search-result .store-list .address {
+    margin-top: 30px;
+    font-size: 28px; }
+  .kolonsport-site .store-cont .store-search-result .store-list .tel {
+    font-size: 28px; }
+  .kolonsport-site .store-cont .store-search-result .store-list a {
+    padding: 13px 30px;
+    border: 2px solid #bfbfbf; } }
+
+/*# sourceMappingURL=Store.css.map */

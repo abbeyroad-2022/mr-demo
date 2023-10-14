@@ -1,0 +1,338 @@
+.rma {
+  margin: 78px 0 140px; }
+  .rma h3 {
+    margin-bottom: 52px;
+    font-size: 22px;
+    color: #1f1f1f; }
+  .rma .shipping {
+    padding: 40px 0 65px;
+    border-top: 4px solid #000; }
+    .rma .shipping h4 {
+      font-weight: bold;
+      margin-bottom: 35px; }
+    .rma .shipping dl {
+      color: #898989;
+      font-size: 14px;
+      line-height: 1.8571; }
+      .rma .shipping dl dt,
+      .rma .shipping dl dd {
+        float: left;
+        margin-bottom: 16px; }
+      .rma .shipping dl dt {
+        clear: left;
+        width: 130px; }
+      .rma .shipping dl dd {
+        float: left; }
+        .rma .shipping dl dd em {
+          color: #1f1f1f; }
+      .rma .shipping dl::after {
+        content: '';
+        display: block;
+        clear: both; }
+    .rma .shipping .note {
+      font-size: 13px;
+      margin-top: 40px;
+      padding-top: 15px;
+      border-top: 1px solid #f1f1f1; }
+      .rma .shipping .note h5 {
+        margin: 25px 0 18px; }
+      .rma .shipping .note li {
+        color: #aaa;
+        line-height: 1.6923;
+        position: relative;
+        padding: 0 0 10px 10px; }
+        .rma .shipping .note li::before {
+          content: '';
+          position: absolute;
+          top: 8px;
+          left: 0;
+          width: 2px;
+          height: 2px;
+          background-color: #c1c1c1; }
+    .rma .shipping .gifts {
+      margin-left: -25px; }
+      .rma .shipping .gifts li {
+        float: left;
+        width: 473px;
+        margin-left: 25px; }
+        .rma .shipping .gifts li .title {
+          font-size: 14px;
+          margin-bottom: 20px; }
+        .rma .shipping .gifts li .gift {
+          color: #1f1f1f;
+          padding: 0 16px;
+          background-color: #f7f7f7; }
+          .rma .shipping .gifts li .gift .thumb {
+            vertical-align: middle;
+            display: inline-block;
+            width: 100px;
+            margin-right: 10px; }
+          .rma .shipping .gifts li .gift .cnt {
+            vertical-align: middle;
+            display: inline-block; }
+            .rma .shipping .gifts li .gift .cnt .brand {
+              font-size: 11px;
+              font-weight: bold;
+              margin-bottom: 10px; }
+            .rma .shipping .gifts li .gift .cnt .title {
+              color: #898989;
+              font-size: 16px;
+              margin-bottom: 0; }
+      .rma .shipping .gifts::after {
+        content: '';
+        display: block;
+        clear: both; }
+  .rma .order-guide {
+    line-height: 1.4;
+    text-align: right;
+    height: 0; }
+    .rma .order-guide a {
+      font-size: 13px;
+      position: relative;
+      display: inline-block;
+      top: -33px;
+      height: 33px;
+      padding-right: 17px;
+      background: url("/_ui/img/pc/icn/icn-order-guide.png") no-repeat 100% 2px; }
+  .rma .order-search {
+    margin-bottom: 60px;
+    padding: 45px 40px 35px;
+    background-color: #f8f8f8; }
+    .rma .order-search .row {
+      width: 100%;
+      height: 50px; }
+      .rma .order-search .row .col {
+        width: 50%;
+        white-space: nowrap;
+        float: left; }
+        .rma .order-search .row .col .label {
+          font-size: 14px;
+          text-align: left;
+          line-height: 40px;
+          -webkit-box-sizing: border-box;
+                  box-sizing: border-box;
+          float: left;
+          margin-bottom: 10px;
+          padding-right: 19px; }
+          .rma .order-search .row .col .label.right {
+            text-align: right; }
+        .rma .order-search .row .col input {
+          -webkit-box-sizing: border-box;
+                  box-sizing: border-box;
+          float: left;
+          height: 40px;
+          padding: 0 10px;
+          border: 1px solid #dedede; }
+        .rma .order-search .row .col .select {
+          float: left; }
+          .rma .order-search .row .col .select select {
+            -webkit-box-sizing: border-box;
+                    box-sizing: border-box;
+            height: 40px;
+            padding: 0 10px;
+            background-color: #fff;
+            border: 1px solid #dedede; }
+        .rma .order-search .row .col .split {
+          text-align: center;
+          line-height: 40px;
+          float: left;
+          width: 17px; }
+      .rma .order-search .row .col.type .label {
+        width: 20%; }
+      .rma .order-search .row .col.type .select {
+        width: 80%; }
+      .rma .order-search .row .col.progress .label {
+        width: 20%; }
+      .rma .order-search .row .col.progress .select {
+        width: 80%; }
+      .rma .order-search .row .col.product {
+        width: 100%; }
+        .rma .order-search .row .col.product .label {
+          width: 10%; }
+        .rma .order-search .row .col.product .select {
+          width: 19%; }
+        .rma .order-search .row .col.product input {
+          width: 70%;
+          float: right; }
+      .rma .order-search .row .col.month .label {
+        width: 20%; }
+      .rma .order-search .row .col.month .tab {
+        display: inline-block;
+        width: 80%;
+        padding-bottom: 0;
+        background-color: #fff; }
+        .rma .order-search .row .col.month .tab li {
+          width: 25%; }
+          .rma .order-search .row .col.month .tab li a {
+            line-height: 38px;
+            height: 38px;
+            padding: 0; }
+        .rma .order-search .row .col.month .tab .on {
+          background-color: #898989; }
+      .rma .order-search .row .col.date .date {
+        margin-left: 25px; }
+      .rma .order-search .row .col.date input {
+        width: 152px;
+        padding: 0 10px;
+        cursor: pointer; }
+      .rma .order-search .row .btn {
+        float: right;
+        width: 20%;
+        margin-left: 10px; }
+      .rma .order-search .row::after {
+        content: '';
+        display: block;
+        clear: both; }
+  .rma .billing {
+    font-size: 14px;
+    padding: 40px 0 60px;
+    border-top: 4px solid #000; }
+    .rma .billing h4 {
+      font-weight: bold;
+      margin-bottom: 35px; }
+    .rma .billing .table {
+      display: table;
+      table-layout: fixed;
+      width: 100%;
+      margin-bottom: 30px; }
+      .rma .billing .table .col {
+        position: relative;
+        display: table-cell;
+        padding: 0 30px; }
+        .rma .billing .table .col h5 {
+          margin: 8px 0 30px; }
+          .rma .billing .table .col h5 .tip {
+            width: 15px;
+            height: 15px;
+            margin-left: 7px;
+            background: url("/_ui/img/pc/icn/icn-tip.png") no-repeat;
+            text-indent: -9999px;
+            vertical-align: baseline; }
+        .rma .billing .table .col li {
+          margin-top: 20px; }
+          .rma .billing .table .col li strong {
+            color: #898989;
+            font-weight: normal;
+            float: left; }
+          .rma .billing .table .col li .price {
+            color: #1f1f1f;
+            float: right;
+            text-align: right;
+            line-height: 18px; }
+            .rma .billing .table .col li .price.bank {
+              display: inline-block;
+              margin-top: 5px;
+              line-height: 20px;
+              color: #898989; }
+            .rma .billing .table .col li .price .virtual-info {
+              margin-top: 20px; }
+              .rma .billing .table .col li .price .virtual-info span {
+                display: inline-block;
+                color: #898989;
+                padding-top: 4px; }
+          .rma .billing .table .col li::after {
+            content: '';
+            display: block;
+            clear: both; }
+        .rma .billing .table .col .receipt {
+          position: absolute;
+          top: 0;
+          right: 30px; }
+          .rma .billing .table .col .receipt .btn-small {
+            height: 24px;
+            padding: 0 13px;
+            font-size: 12px;
+            line-height: 24px; }
+        .rma .billing .table .col .refund-type {
+          text-align: right;
+          margin-top: 20px; }
+          .rma .billing .table .col .refund-type .radio {
+            margin-left: 15px; }
+        .rma .billing .table .col:first-child {
+          padding-left: 0; }
+          .rma .billing .table .col:first-child::before {
+            display: none; }
+        .rma .billing .table .col::before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          display: block;
+          width: 1px;
+          height: 100%;
+          background-color: #f1f1f1; }
+    .rma .billing .total {
+      color: #1f1f1f;
+      font-size: 20px;
+      text-align: right;
+      padding: 30px;
+      border-top: 1px solid #f1f1f1;
+      background: #fafafa; }
+      .rma .billing .total em {
+        color: #f23d4e;
+        font-weight: bold;
+        margin-left: 15px; }
+  .rma .buttons.end-row {
+    margin-top: 0;
+    padding-top: 0;
+    border-top: 0; }
+    .rma .buttons.end-row .btn-billing {
+      background-color: #f23d4e; }
+  .rma .desc {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #898989; }
+  .rma .order-lists .price {
+    width: 100px; }
+    .rma .order-lists .price strong,
+    .rma .order-lists .price span {
+      display: block; }
+    .rma .order-lists .price strong {
+      color: #898989;
+      font-weight: normal;
+      margin-bottom: 5px; }
+  .rma .order-lists .delivery {
+    width: 150px; }
+  .rma .order-lists .head {
+    overflow: hidden;
+    padding-top: 32px; }
+    .rma .order-lists .head span {
+      float: left;
+      display: block;
+      font-size: 13px;
+      color: #898989; }
+    .rma .order-lists .head .tit-1 {
+      width: 630px; }
+    .rma .order-lists .head .tit-2,
+    .rma .order-lists .head .tit-3,
+    .rma .order-lists .head .tit-5 {
+      text-align: center;
+      width: 100px; }
+    .rma .order-lists .head .tit-3 {
+      width: 167px; }
+    .rma .order-lists .head .tit-4 {
+      width: 70px; }
+
+.layer-rma .layer {
+  font-size: 16px; }
+  .layer-rma .layer .bul-list li {
+    position: relative;
+    margin-top: 10px;
+    padding-left: 8px;
+    font-size: 14px;
+    color: #898989;
+    white-space: normal;
+    word-wrap: break-word;
+    -ms-word-wrap: break-word; }
+    .layer-rma .layer .bul-list li:first-child {
+      margin-top: 0; }
+    .layer-rma .layer .bul-list li::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 10px;
+      width: 2px;
+      height: 2px;
+      background-color: #c1c1c1; }
+
+/*# sourceMappingURL=RMA.css.map */

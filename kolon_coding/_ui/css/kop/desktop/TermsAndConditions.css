@@ -1,0 +1,103 @@
+.terms {
+  margin: 78px 0 140px; }
+  .terms h3 {
+    margin-bottom: 52px;
+    font-size: 22px;
+    color: #1f1f1f; }
+  .terms .terms-cont {
+    font-size: 14px;
+    color: #898989;
+    line-height: 1.8; }
+    .terms .terms-cont > li {
+      margin-bottom: 30px; }
+      .terms .terms-cont > li a:hover {
+        color: #1f1f1f;
+        text-decoration: underline; }
+    .terms .terms-cont strong {
+      display: block;
+      margin-bottom: 12px;
+      color: #1f1f1f; }
+    .terms .terms-cont .num-list {
+      margin-left: 16px; }
+      .terms .terms-cont .num-list > li {
+        margin-bottom: 10px;
+        list-style-type: decimal; }
+    .terms .terms-cont .depth1 {
+      padding-left: 27px;
+      margin-bottom: 10px; }
+    .terms .terms-cont .depth2 {
+      padding-left: 8px; }
+    .terms .terms-cont .depth3 {
+      padding-left: 25px; }
+    .terms .terms-cont .decimal-list-1 {
+      counter-reset: depth1; }
+      .terms .terms-cont .decimal-list-1 > li {
+        position: relative;
+        padding-left: 15px;
+        text-indent: -10px; }
+        .terms .terms-cont .decimal-list-1 > li::before {
+          position: absolute;
+          left: -15px;
+          counter-increment: depth1;
+          content: "(" counter(depth1) ")";
+          text-align: right;
+          width: 16px; }
+      .terms .terms-cont .decimal-list-1 .except {
+        text-indent: 0;
+        padding-left: 6px; }
+        .terms .terms-cont .decimal-list-1 .except li {
+          padding-left: 5px;
+          text-indent: 10px; }
+    .terms .terms-cont .decimal-list-2 {
+      counter-reset: depth2; }
+      .terms .terms-cont .decimal-list-2 > li {
+        position: relative;
+        padding-left: 13px;
+        text-indent: 0; }
+        .terms .terms-cont .decimal-list-2 > li::before {
+          position: absolute;
+          left: -5px;
+          counter-increment: depth2;
+          content: counter(depth2) ")"; }
+    .terms .terms-cont .dash-list > li {
+      position: relative;
+      padding-left: 4px;
+      text-indent: 0; }
+      .terms .terms-cont .dash-list > li::before {
+        position: absolute;
+        left: -6px;
+        content: "-"; }
+    .terms .terms-cont .bul-list {
+      margin-left: 2px; }
+      .terms .terms-cont .bul-list > li {
+        position: relative;
+        padding-left: 8px;
+        font-size: 13px; }
+        .terms .terms-cont .bul-list > li:before {
+          content: '';
+          position: absolute;
+          left: 0;
+          top: 10px;
+          width: 2px;
+          height: 2px;
+          background-color: #c1c1c1; }
+    .terms .terms-cont .table-help {
+      text-align: center;
+      color: #1f1f1f;
+      border-collapse: collapse; }
+      .terms .terms-cont .table-help th {
+        font-weight: bold;
+        background-color: #d9d9d9; }
+      .terms .terms-cont .table-help th,
+      .terms .terms-cont .table-help td {
+        padding: 0 14px;
+        border: 1px solid #1f1f1f;
+        vertical-align: middle; }
+    .terms .terms-cont.privacy > li > p {
+      padding-left: 12px; }
+  .terms .tab-content > * {
+    display: none; }
+  .terms .tab-content > .active {
+    display: block; }
+
+/*# sourceMappingURL=TermsAndConditions.css.map */

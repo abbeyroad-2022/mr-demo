@@ -1,0 +1,500 @@
+html {
+  font-size: 4.4vw; }
+
+body {
+  font-size: 16px; }
+
+.scr-prod {
+  border-width: 0.07rem; }
+
+.box-table .tb-bd {
+  border-width: 0.07rem; }
+
+.btns .type01,
+.btns .type02,
+.btns .type03 {
+  border-width: 0.07rem; }
+
+.my-order-result ul .bundle li .set-prod {
+  border-width: 0.07rem; }
+
+.my-order-result ul .bundle li .btm a {
+  border-width: 0.07rem; }
+
+.my-order-result ul .bundle li .reason {
+  border-width: 0.07rem; }
+
+.my-order-result ul .bundle li .request-txt textarea {
+  border-width: 0.07rem; }
+
+.my-order-result ul .bundle li .prod-add .box .conts {
+  border-width: 0.07rem; }
+
+.scr-navi .sub-line {
+  border-width: 0.2rem; }
+
+.scr-prod .txt-box .brand {
+  border-width: 0.2rem; }
+
+.list2-prod2 > ul li .txt-box .brand {
+  border-width: 0.2rem; }
+
+.prod-view-top {
+  border-width: 0.2rem; }
+  .prod-view-top .btns {
+    min-width: 50%;
+    text-align: right; }
+    .prod-view-top .btns.left {
+      text-align: left; }
+
+.cs-depth2 ul {
+  border-width: 0.2rem; }
+
+.site-map {
+  border-width: 0.07rem; }
+
+footer .footer {
+  border-width: 0.07rem; }
+  footer .footer .f-wrap .btn-customer-cnt {
+    border-width: 0.07rem; }
+
+.kolon-wrap.main .kolon-header .h-wrap ul {
+  border-width: 0.2rem; }
+
+.as-txt dd {
+  border-width: 0.07rem; }
+
+.as-inquiry form input {
+  border-width: 0.07rem; }
+
+.as-inquiry form .as-btn {
+  border-width: 0.07rem; }
+
+.as-pop .pop-result {
+  border-width: 0.2rem; }
+  .as-pop .pop-result li {
+    border-width: 0.07rem; }
+  .as-pop .pop-result + a {
+    border-width: 0.07rem; }
+
+.cart .cont .c-list .setItem .set-option-list {
+  border-width: 0.07rem; }
+
+.cart .cont .c-list .info .prod-add .sizeSelect,
+.cart .cont .c-list .info .prod-add button {
+  border-width: 0.07rem; }
+
+.cart .cont .c-list .info .prod-add .conts {
+  border-width: 0.07rem; }
+
+.cart .cont .c-list .info .prod-add .select {
+  border-width: 0.07rem; }
+
+.cart .cont .c-list .btn-area .btn1 {
+  border-width: 0.07rem; }
+
+.cart .cont .c-list .btn-area .btn {
+  border-width: 0.07rem; }
+
+.cart .cont .btns .click-del {
+  border-width: 0.07rem; }
+
+.cart .cont .btns .click-cart {
+  border-width: 0.07rem; }
+
+.total-price {
+  border-width: 0.07rem; }
+
+.cart .top {
+  border-width: 0.2rem; }
+
+.add-form form ul li {
+  border-width: 0.07rem; }
+  .add-form form ul li .slt-prdt {
+    border-width: 0.07rem; }
+  .add-form form ul li .slt-prdt-box {
+    border-width: 0.07rem; }
+
+.add-form form dl {
+  border-width: 0.2rem; }
+  .add-form form dl dt input {
+    border-width: 0.07rem; }
+  .add-form form dl dd {
+    border-width: 0.07rem; }
+  .add-form form dl dd.sns-chk .check input + label {
+    border-width: 0.07rem; }
+
+.search-prod .prod-list li {
+  border-width: 0.07rem; }
+  .search-prod .prod-list li .info .select {
+    border-width: 0.07rem; }
+
+.btn-contact {
+  border-width: 0.07rem; }
+
+.select-period ul {
+  border-width: 0.07rem; }
+  .select-period ul li a {
+    border-width: 0.07rem; }
+
+.offline-coupon-shop .scroll-area .select-shop select,
+.offline-coupon-shop .scroll-area .select-shop input[type="text"] {
+  border-width: 0.07rem; }
+
+.offline-coupon-shop .scroll-area .select-shop .btn {
+  border-width: 0.07rem; }
+
+.cnt-box {
+  border-width: 0.07rem; }
+
+.top-sub-tit {
+  border-width: 0.2rem; }
+
+.wrap-form-login .form-login .in-txt input {
+  border-width: 0.07rem; }
+  .wrap-form-login .form-login .in-txt input.active {
+    border-width: 0.07rem; }
+
+.order .d-info .add .btn-area .close {
+  border-width: 0.07rem; }
+
+.order .d-info li {
+  border-width: 0.07rem; }
+  .order .d-info li .cont .btn {
+    border-width: 0.07rem; }
+  .order .d-info li.request-box .request-txt {
+    border-width: 0.07rem; }
+
+.complete .box2 {
+  border-width: 0.2rem; }
+  .complete .box2 .dl-table {
+    border-width: 0.07rem; }
+    .complete .box2 .dl-table dt {
+      border-width: 0.07rem; }
+  .complete .box2 .btns a {
+    border-width: 0.07rem; }
+
+.mypage-order .my-order-check select {
+  border-width: 0.07rem; }
+
+.mypage-order .my-order-check input {
+  border-width: 0.07rem; }
+
+.mypage-order .my-order-result ul .bundle li .set-prod {
+  border-width: 0.07rem; }
+
+.mypage-order .my-order-result ul .bundle li .btm p span + span {
+  border-width: 0.07rem; }
+
+.mypage-order .my-order-result ul .bundle li .request-txt textarea {
+  border-width: 0.07rem; }
+
+.mypage-order .my-order-result ul .bundle li .prod-add .box .conts {
+  border-width: 0.07rem; }
+
+.mypage-order .btn-back a {
+  border-width: 0.07rem; }
+
+.mypage-order .order.cancel-refund h3 {
+  border-width: 0.2rem; }
+
+.mypage-order .order.cancel-refund .dl-table dt {
+  border-width: 0.07rem; }
+
+.mypage-order .order.cancel-refund .dl-table dd {
+  border-width: 0.07rem; }
+
+.mypage-order .order.cancel-return .d-top {
+  border-width: 0.2rem; }
+
+.mypage-order .order .d-info .add ul li:last-child {
+  border-width: 0.07rem; }
+
+.mypage-order .cancel-btns .btn1 {
+  border-width: 0.07rem; }
+
+.mypage-order .cancel-end .btn a {
+  border-width: 0.07rem; }
+
+.mypage-order .confirm-btn a {
+  border-width: 0.07rem; }
+
+.mypage-order .cancel-exchange > div .bd {
+  border-width: 0.2rem; }
+
+.mypage-order .cancel-gift + .complete + .complete .box2 h3 {
+  border-width: 0.2rem; }
+
+.mypage-order .return-notice h3 {
+  border-width: 0.2rem; }
+
+.wrap-form-login .form-login .in-txt input {
+  border-width: 0.07rem; }
+  .wrap-form-login .form-login .in-txt input.active {
+    border-width: 0.07rem; }
+
+.wrap-form-login .form-login .btns .btn-nonmbr {
+  border-width: 0.07rem; }
+
+#kolon-content.setting .user .btn-login {
+  border-width: 0.07rem; }
+
+#kolon-content.setting .login {
+  border-width: 0.07rem; }
+
+#kolon-content.setting .notice .box-txt {
+  border-width: 0.07rem; }
+
+#kolon-content.setting .notice .box-btn .type01 {
+  border-width: 0.07rem; }
+
+.kolon-menu nav .main-menu li {
+  border-width: 0.07rem; }
+  .kolon-menu nav .main-menu li.depth .depth-02 {
+    border-width: 0.07rem; }
+  .kolon-menu nav .main-menu li.depth .depth-03 {
+    border-width: 0.07rem; }
+
+.kolon-menu nav .sub-menu .member .setting {
+  border-width: 0.07rem; }
+
+.kolon-menu nav .brand-list .list {
+  border-width: 0.07rem; }
+
+.kolon-menu .gnb .my-info .user-log strong {
+  border-width: 0.07rem; }
+
+.kolon-menu .gnb .my-info .user-log u {
+  border-width: 0.07rem; }
+
+.kolon-menu .gnb .my-info .user-log .separater {
+  border-width: 0.07rem; }
+
+.list1-prod > ul li .txt-box .brand {
+  border-width: 0.2rem; }
+
+.main .scr-navi {
+  border-width: 0.07rem; }
+
+.wow-my-kolon ul li {
+  border-width: 0.07rem; }
+
+.family-guide .box2 dl {
+  border-width: 0.2rem; }
+  .family-guide .box2 dl dt {
+    border-width: 0.07rem; }
+  .family-guide .box2 dl dd {
+    border-width: 0.07rem; }
+
+.cs-faq .toggle-list li {
+  border-width: 0.07rem; }
+
+.cs-faq .point-sort::after {
+  border-width: 0.2rem; }
+
+.order .order-prod .top {
+  border-width: 0.2rem; }
+
+.order .order-prod .setItem .set-option-list {
+  border-width: 0.07rem; }
+
+.order .gift .top {
+  border-width: 0.07rem; }
+
+.order .ad-info .d-cont {
+  border-width: 0.07rem; }
+  .order .ad-info .d-cont .address .d-txt {
+    border-width: 0.07rem; }
+
+.order .d-discount .tg-cont .input {
+  border-width: 0.07rem; }
+
+.order .d-discount .tg-cont .btn {
+  border-width: 0.07rem; }
+
+.order .d-discount .coupon .tg-cont li {
+  border-width: 0.07rem; }
+
+.order .d-discount .coupon .tg-cont .add input {
+  border-width: 0.07rem; }
+
+.order .d-discount .coupon .tg-cont .add-coupon {
+  border-width: 0.07rem; }
+
+.order .d-discount .staff .tg-cont div {
+  border-width: 0.07rem; }
+
+.order .d-discount .deposit .tg-cont input {
+  border-width: 0.07rem; }
+
+.order .payment + .payment {
+  border-width: 0.07rem; }
+
+.order .payment .cont .pay-tab li {
+  border-width: 0.07rem; }
+
+.order .payment .cont .pay-tab .on {
+  border-width: 0.07rem; }
+
+.order .payment .cont .deposit .txt {
+  border-width: 0.07rem; }
+
+.order .payment .cont .deposit .add select {
+  border-width: 0.07rem; }
+
+.order .payment .cont .deposit .add input {
+  border-width: 0.07rem; }
+
+.order .payment .cont .agree {
+  border-width: 0.07rem; }
+
+.order .d-top {
+  border-width: 0.2rem; }
+
+.list2-prod2 > ul {
+  border-width: 0.07rem; }
+
+.order-notice .box1 {
+  border-width: 0.07rem; }
+
+.only-employee .add .input input[type="text"] {
+  border-width: 0.07rem; }
+
+.only-employee .add .input .btn {
+  border-width: 0.07rem; }
+
+.only-employee .wrap-c-list .list {
+  border-width: 0.07rem; }
+
+.only-employee .btn-area .cencel {
+  border-width: 0.07rem; }
+
+.wrap-pickup-ticket .wrap-ticket-list .ticket-list .pickup-product .set-prod {
+  border-width: 0.07rem; }
+
+.wrap-pickup-ticket .wrap-ticket-list .ticket-list .pickup-ticket {
+  border-width: 0.07rem; }
+  .wrap-pickup-ticket .wrap-ticket-list .ticket-list .pickup-ticket .btn-review a {
+    border-width: 0.07rem; }
+
+.ticket-info-area .sns-service {
+  border-width: 0.07rem; }
+
+.ticket-info-area .btn-area a.cancel {
+  border-width: 0.07rem; }
+
+.ticket-info-area .btn-area a.confirm {
+  border-width: 0.07rem; }
+
+.dpst-list .detail {
+  border-width: 0.07rem; }
+
+.prod-detail-main .detail-info .info-box .brand i {
+  border-width: 0.07rem; }
+
+.prod-detail-contents .detail-review .review-list .wrap-list .list .my-review a {
+  border-width: 0.07rem; }
+
+.prod-detail-contents .detail-special {
+  border-width: 0.2rem; }
+
+.prod-detail-contents .prod-list .list-wrap .swiper-slide a {
+  width: 30.333%;
+  margin: 0 1.5% 3%; }
+
+.detail-btn-area .btn-area,
+.detail-btn-area .type01,
+.detail-btn-area .type02 {
+  border-width: 0.07rem; }
+
+.box-form-pral .form-pral .ch-area {
+  border-width: 0.07rem; }
+
+.box-form-pral .form-pral input {
+  border-width: 0.07rem; }
+
+.box-list .list-review .prdt .btn-wrt a {
+  border-width: 0.07rem; }
+
+.box-write .form-review input,
+.box-write .form-review select,
+.box-write .form-review textarea {
+  border-width: 0.07rem; }
+
+.box-write .btns .click-cl {
+  border-width: 0.07rem; }
+
+.box-write .btns .click-rgt {
+  border-width: 0.07rem; }
+
+.order .d-top {
+  border-width: 0.2rem; }
+
+.order .d-info .add {
+  border-width: 0.2rem; }
+
+.order .d-info li {
+  border-width: 0.07rem; }
+  .order .d-info li .cont .btn {
+    border-width: 0.07rem; }
+
+.order .gift .top {
+  border-width: 0.07rem; }
+
+.mypage-order .my-order-check .btn-inquiry a {
+  border-width: 0.07rem; }
+
+.mypage-order .my-order-check select {
+  border-width: 0.07rem; }
+
+.mypage-order .my-order-check .add-prod input {
+  border-width: 0.07rem; }
+
+.mypage-order .btn-back a {
+  border-width: 0.07rem; }
+
+.mypage-order .order-number + .top {
+  border-width: 0.2rem; }
+
+.typing ul li {
+  border-width: 0.07rem; }
+
+.hs-border {
+  border-width: 0.2rem; }
+
+.detail-address .box-address .input-addr input {
+  border-width: 0.07rem; }
+
+.my-address .top .radio input:checked + label {
+  background-size: contain; }
+
+.my-address .ad-list dl {
+  border-width: 0.07rem; }
+
+.my-address .ad-list .edit {
+  border-width: 0.07rem; }
+
+.d-info .add .btn-area .close {
+  border-width: 0.07rem; }
+
+.d-info li {
+  border-width: 0.07rem; }
+  .d-info li .cont .btn {
+    border-width: 0.07rem; }
+  .d-info li.request-box .request-txt {
+    border-width: 0.07rem; }
+
+.search-zipcode .search-top .search-wrap {
+  border-width: 0.14rem; }
+
+.bt-minus {
+  background: url("/_ui/img/m/icn/icn-minus4.png") no-repeat center;
+  background-size: 2.933vw; }
+
+.kolon-menu nav .brand-list .brand-open {
+  border-width: 0.07rem; }
+
+.kolon-menu nav .brand-list .tabs {
+  border-width: 0.07rem; }
+
+/*# sourceMappingURL=kitkat.css.map */

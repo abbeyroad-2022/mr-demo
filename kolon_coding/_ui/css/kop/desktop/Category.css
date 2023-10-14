@@ -1,0 +1,30 @@
+.category-cont {
+  margin: 78px 0 80px; }
+  .category-cont .top-banner,
+  .category-cont .issue-and-deal-banner {
+    margin-bottom: 50px; }
+    .category-cont .top-banner .thumb-list,
+    .category-cont .issue-and-deal-banner .thumb-list {
+      overflow: hidden; }
+    .category-cont .top-banner .item,
+    .category-cont .issue-and-deal-banner .item {
+      margin-right: 20px; }
+  .category-cont .issue-and-deal-banner {
+    margin-top: 70px; }
+  .category-cont .banner-list {
+    margin-bottom: 50px; }
+    .category-cont .banner-list::after {
+      content: '';
+      display: table;
+      clear: both; }
+    .category-cont .banner-list li {
+      position: relative;
+      float: left;
+      margin-left: 21px; }
+      .category-cont .banner-list li:first-child {
+        margin-left: 0; }
+  .category-cont hr {
+    border: 2px solid #1f1f1f;
+    margin: 75px 0 50px; }
+
+/*# sourceMappingURL=Category.css.map */

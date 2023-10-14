@@ -1,0 +1,15 @@
+.kolonsport-site .category-cont .top-banner-wide {
+  overflow: hidden; }
+  .kolonsport-site .category-cont .top-banner-wide .item {
+    width: 972px;
+    height: 333px;
+    overflow: hidden; }
+    .kolonsport-site .category-cont .top-banner-wide .item .sticky {
+      display: none; }
+    .kolonsport-site .category-cont .top-banner-wide .item .txt-box {
+      display: none; }
+    .kolonsport-site .category-cont .top-banner-wide .item .bg-image {
+      height: 333px;
+      padding: 0; }
+
+/*# sourceMappingURL=Category.css.map */

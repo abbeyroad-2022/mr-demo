@@ -1,0 +1,149 @@
+.scr-navi .swiper-wrapper .swiper-slide a {
+  font-size: 4vw; }
+
+.mbship {
+  width: 80%;
+  margin: 0 auto; }
+  .mbship img {
+    width: 100%; }
+
+.cnt-box {
+  padding: 8.5vw 0;
+  border-bottom: .266vw solid #f7f7f7; }
+  .cnt-box strong {
+    display: block;
+    padding: 0 4.8vw;
+    font-size: 3.73vw; }
+  .cnt-box .step {
+    margin-top: 6.67vw;
+    padding: 10vw 0;
+    background: #f8f8f8;
+    text-align: center; }
+    .cnt-box .step .arrow {
+      display: inline-block;
+      width: 29.3vw;
+      height: 3.6vw;
+      background: url("/_ui/img/m/icn/icn-arrow03.png") no-repeat center;
+      background-size: contain;
+      vertical-align: bottom; }
+    .cnt-box .step .arrow.type02 {
+      width: 18.6vw; }
+  .cnt-box .step > div {
+    display: inline-block; }
+    .cnt-box .step > div i {
+      display: block;
+      width: 4.8vw;
+      height: 4.8vw;
+      margin: 0 auto;
+      line-height: 4.8vw;
+      background: url("/_ui/img/m/icn/icn-circle.png");
+      background-size: contain;
+      font-size: 2.93vw;
+      color: #fff;
+      text-align: center; }
+    .cnt-box .step > div span {
+      display: inline-block;
+      margin-top: 5.33vw;
+      font-size: 3.73vw; }
+  .cnt-box .txt {
+    display: block;
+    padding: 4.67vw 4.8vw 0;
+    font-size: 3.73vw;
+    color: #898989;
+    line-height: 5.86vw;
+    letter-spacing: -.2px; }
+
+.cnt-box.last {
+  padding-bottom: 13.3vw;
+  border: 0; }
+
+.cnt-box.noti {
+  padding: 0 0 6vw;
+  border: 0; }
+  .cnt-box.noti h3 {
+    padding: 0 4.8vw 6.4vw;
+    font-size: 3.73vw;
+    color: #898989; }
+  .cnt-box.noti strong {
+    color: #898989; }
+  .cnt-box.noti .txt {
+    padding-top: 2vw; }
+
+.box-brand {
+  padding: 16vw 0;
+  text-align: center;
+  border-bottom: 2px solid #f7f7f7; }
+  .box-brand h3 {
+    margin-bottom: 13.3vw;
+    font-size: 3.47vw;
+    font-weight: bold;
+    color: #1f1f1f; }
+
+.box-brand.first {
+  padding-top: 6.8vw; }
+
+.box-brand.last {
+  border: 0; }
+
+.box-brand > div > img {
+  width: 70.5%;
+  margin: 0 auto; }
+
+.box-brand.last > div > img {
+  width: 25.8%; }
+
+@media (min-width: 750px) {
+  .scr-navi {
+    width: 678px;
+    border-bottom: 6px #000 solid; }
+    .scr-navi .swiper-wrapper .swiper-slide a {
+      height: 100px;
+      line-height: 100px;
+      font-size: 30px; }
+    .scr-navi .swiper-wrapper + .icn-navi {
+      height: 100px;
+      background-position: right center; }
+  .cnt-box {
+    padding: 65px 0; }
+    .cnt-box strong {
+      padding: 0 36px;
+      font-size: 28px; }
+    .cnt-box .step {
+      margin-top: 50px;
+      padding: 75px 0; }
+      .cnt-box .step .arrow {
+        width: 220px;
+        height: 30px; }
+      .cnt-box .step .arrow.type02 {
+        width: 140px; }
+    .cnt-box .step > div i {
+      width: 36px;
+      height: 36px;
+      line-height: 36px;
+      font-size: 22px; }
+    .cnt-box .step > div span {
+      margin-top: 40px;
+      font-size: 28px; }
+    .cnt-box .txt {
+      display: block;
+      padding: 35px 36px 0;
+      font-size: 28px;
+      line-height: 44px; }
+  .cnt-box.last {
+    padding-bottom: 100px; }
+  .cnt-box.noti h3 {
+    padding: 0 36px 48px;
+    font-size: 28px; }
+  .cnt-box.noti .txt {
+    padding-top: 15px; }
+  .box-brand {
+    padding: 120px; }
+    .box-brand h3 {
+      margin-bottom: 100px;
+      font-size: 26px; }
+  .box-brand.first {
+    padding-top: 50px; }
+  .box-brand > div > img {
+    width: auto; } }
+
+/*# sourceMappingURL=eKOLON.css.map */

@@ -1,0 +1,87 @@
+.main .swiper-wrapper {
+  max-width: 100%; }
+
+.main .slide-list {
+  width: 100%;
+  overflow: hidden; }
+
+.main .banner {
+  margin-bottom: 80px; }
+  .main .banner a {
+    display: block;
+    margin-top: 15px; }
+
+.main .visual-slide {
+  margin-top: 26px;
+  height: 585px;
+  overflow: hidden; }
+  .main .visual-slide .swiper-wrapper .no-center-banner .left-banner,
+  .main .visual-slide .swiper-wrapper .no-center-banner .right-banner {
+    width: 592px;
+    height: 585px; }
+  .main .visual-slide .swiper-wrapper .no-center-banner .right-banner {
+    margin-left: 16px; }
+  .main .visual-slide .swiper-wrapper .left-banner,
+  .main .visual-slide .swiper-wrapper .center-banner,
+  .main .visual-slide .swiper-wrapper .right-banner {
+    float: left;
+    position: relative;
+    overflow: hidden; }
+    .main .visual-slide .swiper-wrapper .left-banner img,
+    .main .visual-slide .swiper-wrapper .center-banner img,
+    .main .visual-slide .swiper-wrapper .right-banner img {
+      width: 100%; }
+  .main .visual-slide .swiper-wrapper .center-banner,
+  .main .visual-slide .swiper-wrapper .right-banner {
+    margin-left: 15px; }
+  .main .visual-slide .swiper-wrapper .left-banner,
+  .main .visual-slide .swiper-wrapper .right-banner {
+    width: 450px;
+    height: 585px; }
+  .main .visual-slide .swiper-wrapper .center-banner {
+    width: 270px; }
+  .main .visual-slide .swiper-controls {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto; }
+    .main .visual-slide .swiper-controls .swiper-button-prev {
+      margin-left: -1px;
+      margin-right: -1px; }
+    .main .visual-slide .swiper-controls .swiper-button-prev,
+    .main .visual-slide .swiper-controls .swiper-button-next {
+      margin-top: -315px; }
+
+.main .thumb-wrap {
+  margin-top: 80px; }
+
+.main .brand .brand-list {
+  text-align: center; }
+  .main .brand .brand-list li {
+    display: inline-block; }
+    .main .brand .brand-list li a {
+      display: block;
+      margin: 0 17px 17px;
+      padding: 3px 0;
+      font-size: 11px;
+      color: #1f1f1f;
+      font-weight: bold;
+      border-bottom: 3px solid transparent; }
+      .main .brand .brand-list li a.active {
+        border-bottom: 3px solid #0f0f10; }
+
+.main .brand .more-wrap {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  text-align: right; }
+  .main .brand .more-wrap a {
+    display: inline-block;
+    padding: 3px 15px;
+    font-weight: bold;
+    font-size: 11px;
+    color: #0f0f10;
+    border: 2px solid #0f0f10; }
+
+.main-cont.special-cont .category-menu {
+  margin-top: 20px; }
+
+/*# sourceMappingURL=Main.css.map */

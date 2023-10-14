@@ -1,0 +1,1 @@
+{"version":3,"sources":["kop/desktop/Error.scss"],"names":[],"mappings":"AAAA;EACG,iBAAgB;EAChB,mBAAkB,EACnB","file":"Error.css","sourcesContent":[".error-msg {\n   padding: 200px 0;\n   text-align: center;\n }"]}

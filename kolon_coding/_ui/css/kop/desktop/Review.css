@@ -1,0 +1,238 @@
+.review {
+  margin: 78px 0 140px; }
+  .review h3 {
+    margin-bottom: 52px;
+    font-size: 22px;
+    color: #1f1f1f; }
+  .review .order-lists .grade-wrap {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f3f3f3; }
+    .review .order-lists .grade-wrap .grade {
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      width: 100%;
+      padding: 30px 40px;
+      background-color: #fbfbfb; }
+      .review .order-lists .grade-wrap .grade .star {
+        width: 130px;
+        height: 21px;
+        margin-bottom: 30px;
+        background-repeat: repeat-x;
+        background-image: url("/_ui/img/pc/icn/icn-grade-list.png"); }
+        .review .order-lists .grade-wrap .grade .star::before {
+          content: '';
+          display: block;
+          width: 0;
+          height: 21px;
+          background-repeat: repeat-x;
+          background-position: 0 -21px;
+          background-image: url("/_ui/img/pc/icn/icn-grade-list.png"); }
+        .review .order-lists .grade-wrap .grade .star[data-grade="1"]::before {
+          width: 26px; }
+        .review .order-lists .grade-wrap .grade .star[data-grade="2"]::before {
+          width: 52px; }
+        .review .order-lists .grade-wrap .grade .star[data-grade="3"]::before {
+          width: 78px; }
+        .review .order-lists .grade-wrap .grade .star[data-grade="4"]::before {
+          width: 104px; }
+        .review .order-lists .grade-wrap .grade .star[data-grade="5"]::before {
+          width: 130px; }
+      .review .order-lists .grade-wrap .grade .content {
+        color: #898989;
+        font-size: 14px;
+        line-height: 1.8571;
+        position: relative;
+        word-break: break-all; }
+        .review .order-lists .grade-wrap .grade .content .thumb {
+          float: left;
+          width: 140px;
+          margin-right: 29px; }
+          .review .order-lists .grade-wrap .grade .content .thumb img {
+            width: 100%; }
+        .review .order-lists .grade-wrap .grade .content .title {
+          color: #1f1f1f;
+          font-size: 16px;
+          margin-bottom: 18px; }
+        .review .order-lists .grade-wrap .grade .content .date {
+          font-size: 13px;
+          position: absolute;
+          top: 0;
+          right: 0; }
+        .review .order-lists .grade-wrap .grade .content .thumb ~ p {
+          margin-left: 169px; }
+        .review .order-lists .grade-wrap .grade .content::after {
+          content: '';
+          display: block;
+          clear: both; }
+      .review .order-lists .grade-wrap .grade .aside {
+        margin-top: 35px; }
+        .review .order-lists .grade-wrap .grade .aside .share {
+          float: left; }
+          .review .order-lists .grade-wrap .grade .aside .share a {
+            font: 0 / 0 a;
+            vertical-align: middle;
+            display: inline-block;
+            margin-right: 16px;
+            background-repeat: no-repeat;
+            background-image: url("/_ui/img/pc/icn/icn-review.png"); }
+          .review .order-lists .grade-wrap .grade .aside .share .facebook {
+            width: 8px;
+            height: 18px;
+            background-position: 0 0; }
+          .review .order-lists .grade-wrap .grade .aside .share .kakao {
+            width: 23px;
+            height: 21px;
+            background-position: -10px 0; }
+          .review .order-lists .grade-wrap .grade .aside .share .url {
+            width: 29px;
+            height: 11px;
+            background-position: -35px 0; }
+        .review .order-lists .grade-wrap .grade .aside .buttons {
+          float: right; }
+          .review .order-lists .grade-wrap .grade .aside .buttons .btn {
+            font-size: 12px;
+            width: 84px;
+            height: 26px;
+            line-height: 26px;
+            padding: 0; }
+        .review .order-lists .grade-wrap .grade .aside::after {
+          content: '';
+          display: block;
+          clear: both; }
+  .review .no-result {
+    color: #898989;
+    font-size: 16px;
+    text-align: center;
+    padding: 140px 0; }
+
+.layer-review .layer {
+  font-size: 14px; }
+  .layer-review .layer .review-star .txt {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: #aaa; }
+  .layer-review .layer .review-star legend {
+    display: none; }
+  .layer-review .layer .review-star .star {
+    width: 230px;
+    height: 36px;
+    margin: 0 auto 5px;
+    background-repeat: repeat-x;
+    background-image: url("/_ui/img/pc/icn/icn-grade-list-lg.png");
+    cursor: pointer; }
+    .layer-review .layer .review-star .star::before {
+      content: '';
+      display: block;
+      width: 0;
+      height: 36px;
+      background-repeat: repeat-x;
+      background-position: 0 -36px;
+      background-image: url("/_ui/img/pc/icn/icn-grade-list-lg.png"); }
+    .layer-review .layer .review-star .star[data-grade="1"]::before {
+      width: 46px; }
+    .layer-review .layer .review-star .star[data-grade="2"]::before {
+      width: 92px; }
+    .layer-review .layer .review-star .star[data-grade="3"]::before {
+      width: 138px; }
+    .layer-review .layer .review-star .star[data-grade="4"]::before {
+      width: 184px; }
+    .layer-review .layer .review-star .star[data-grade="5"]::before {
+      width: 230px; }
+  .layer-review .layer .review-star .review-form {
+    margin-bottom: 40px; }
+    .layer-review .layer .review-star .review-form dt,
+    .layer-review .layer .review-star .review-form dd {
+      min-height: 38px;
+      margin-bottom: 12px; }
+    .layer-review .layer .review-star .review-form dt {
+      color: #000;
+      float: left;
+      clear: left;
+      width: 70px; }
+    .layer-review .layer .review-star .review-form dd {
+      padding-left: 70px; }
+      .layer-review .layer .review-star .review-form dd .col-1 {
+        display: inline-block;
+        width: 406px; }
+      .layer-review .layer .review-star .review-form dd .add-file {
+        margin-top: 13px;
+        vertical-align: top;
+        display: inline-block; }
+        .layer-review .layer .review-star .review-form dd .add-file .thumb {
+          text-align: center;
+          white-space: nowrap;
+          position: relative;
+          display: inline-block;
+          width: 78px;
+          height: 78px;
+          margin: -8px 16px 0 0;
+          border: 1px solid #dedede;
+          background-color: #000; }
+          .layer-review .layer .review-star .review-form dd .add-file .thumb img {
+            vertical-align: middle;
+            display: inline-block;
+            width: auto;
+            max-width: 100%;
+            max-height: 100%; }
+          .layer-review .layer .review-star .review-form dd .add-file .thumb .delete {
+            font: 0 / 0 a;
+            position: absolute;
+            top: 0;
+            right: 0;
+            display: block;
+            width: 20px;
+            height: 20px;
+            background: #000 url("/_ui/img/pc/icn/icn-file-delete.png") no-repeat 50% 50%; }
+        .layer-review .layer .review-star .review-form dd .add-file .file {
+          vertical-align: top;
+          position: relative;
+          overflow: hidden;
+          display: inline-block;
+          margin-top: -9px;
+          cursor: pointer; }
+          .layer-review .layer .review-star .review-form dd .add-file .file input[type="file"] {
+            font-size: 100px;
+            vertical-align: top;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0; }
+        .layer-review .layer .review-star .review-form dd .add-file .desc {
+          margin-top: -42px;
+          margin-left: 100px;
+          font-size: 14px;
+          color: #898989; }
+        .layer-review .layer .review-star .review-form dd .add-file .thumb.hidden {
+          display: none; }
+        .layer-review .layer .review-star .review-form dd .add-file .thumb.hidden ~ .file {
+          margin-top: -15px; }
+        .layer-review .layer .review-star .review-form dd .add-file .thumb.hidden ~ .desc {
+          margin-top: 10px;
+          margin-left: 0; }
+    .layer-review .layer .review-star .review-form input[type="text"] {
+      height: 38px; }
+    .layer-review .layer .review-star .review-form input[type="text"],
+    .layer-review .layer .review-star .review-form textarea {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      width: 100%;
+      margin-top: -8px;
+      padding: 0 4px;
+      border-color: #dedede;
+      border-style: solid;
+      border-width: 0 0 1px; }
+    .layer-review .layer .review-star .review-form textarea {
+      height: 110px;
+      padding: 9px 4px;
+      font-size: 14px;
+      color: #1f1f1f;
+      outline: none;
+      resize: none; }
+    .layer-review .layer .review-star .review-form select {
+      vertical-align: middle;
+      margin-top: -8px; }
+
+/*# sourceMappingURL=Review.css.map */

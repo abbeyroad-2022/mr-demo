@@ -1,0 +1,413 @@
+.scr-navi .swiper-wrapper .swiper-slide a {
+  font-size: 4vw; }
+
+.box-list {
+  width: 100%;
+  background: #f3f4f7; }
+  .box-list .list-review {
+    width: 93.6%;
+    margin: 0 auto;
+    padding-top: 4.533vw;
+    padding-bottom: 1.33vw; }
+    .box-list .list-review .prdt {
+      overflow: hidden;
+      position: relative;
+      width: 100%;
+      margin-bottom: 2.13vw;
+      padding: 2.933vw;
+      background: #fff;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box; }
+      .box-list .list-review .prdt .box-img {
+        float: left;
+        position: relative;
+        width: 25.33vw;
+        max-width: 190px; }
+        .box-list .list-review .prdt .box-img img {
+          width: 100%; }
+        .box-list .list-review .prdt .box-img::before {
+          content: '';
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          background: #000;
+          opacity: .03;
+          z-index: 1; }
+      .box-list .list-review .prdt .box-cnt {
+        width: 56.66vw;
+        max-width: 425px;
+        float: left;
+        padding-left: 4.533vw; }
+        .box-list .list-review .prdt .box-cnt .brand {
+          display: inline-block;
+          padding-top: 2vw;
+          font-size: 2.66vw;
+          color: #1f1f1f; }
+        .box-list .list-review .prdt .box-cnt .code {
+          float: right;
+          padding-top: 2vw;
+          font-size: 2.66vw;
+          color: #bbb; }
+        .box-list .list-review .prdt .box-cnt .pd-name {
+          overflow: hidden;
+          margin-top: 2.66vw;
+          margin-bottom: 5.33vw;
+          font-size: 3.466vw;
+          color: #1f1f1f;
+          text-overflow: ellipsis;
+          white-space: nowrap; }
+        .box-list .list-review .prdt .box-cnt .pd-ot {
+          font-size: 3.2vw;
+          color: #898989; }
+        .box-list .list-review .prdt .box-cnt .pd-prc {
+          margin-top: 1.33vw;
+          font-size: 3.466vw;
+          color: #1f1f1f; }
+      .box-list .list-review .prdt .btn-wrt {
+        display: inline-block;
+        position: absolute;
+        bottom: 2.93vw;
+        right: 2.66vw;
+        text-align: center; }
+        .box-list .list-review .prdt .btn-wrt a {
+          display: inline-block;
+          width: 16.533vw;
+          height: 7.2vw;
+          border: .266vw solid #f1f1f1;
+          font-size: 3.2vw;
+          color: #1f1f1f;
+          line-height: 7.2vw; }
+    .box-list .list-review .rgstd-cnts {
+      overflow: hidden;
+      position: relative;
+      width: 100%;
+      margin-bottom: 2.13vw;
+      padding: 4.8vw;
+      background: #fff;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box; }
+      .box-list .list-review .rgstd-cnts .date {
+        float: right;
+        font-size: 3.2vw;
+        color: #898989; }
+      .box-list .list-review .rgstd-cnts .txt {
+        font-size: 3.733vw;
+        word-break: break-all; }
+        .box-list .list-review .rgstd-cnts .txt dt {
+          margin: 4.8vw 0 3.733vw;
+          color: #1f1f1f; }
+        .box-list .list-review .rgstd-cnts .txt dd {
+          margin-bottom: 1.33vw;
+          color: #898989; }
+      .box-list .list-review .rgstd-cnts .rgstd-img {
+        width: 26.66vw;
+        margin-top: 4.533vw; }
+        .box-list .list-review .rgstd-cnts .rgstd-img img {
+          width: 100%; }
+      .box-list .list-review .rgstd-cnts .btn-menu {
+        margin-top: 12.266vw; }
+        .box-list .list-review .rgstd-cnts .btn-menu a {
+          display: inline-block;
+          font-size: 4vw;
+          color: #1f1f1f; }
+        .box-list .list-review .rgstd-cnts .btn-menu .sns {
+          text-indent: -9999px;
+          height: 4vw;
+          margin-right: 8vw; }
+        .box-list .list-review .rgstd-cnts .btn-menu .fb {
+          background: url("/_ui/img/m/icn/icn-facebook.png") no-repeat center;
+          background-size: contain;
+          width: 2.266vw; }
+        .box-list .list-review .rgstd-cnts .btn-menu .kakao {
+          background: url("/_ui/img/m/icn/icn-kakao.png") no-repeat center;
+          background-size: contain;
+          width: 5.06vw; }
+        .box-list .list-review .rgstd-cnts .btn-menu .url {
+          background: url("/_ui/img/m/icn/icn-url.png") no-repeat center;
+          background-size: contain;
+          width: 6.66vw; }
+        .box-list .list-review .rgstd-cnts .btn-menu .del {
+          float: right; }
+    .box-list .list-review .registed .prdt {
+      margin-bottom: .266vw; }
+      .box-list .list-review .registed .prdt .pd-name {
+        font-weight: bold; }
+  .box-list .more {
+    width: 7.733vw;
+    height: 7.733vw;
+    display: block;
+    background: url("/_ui/img/m/icn/icn-more.png") no-repeat;
+    background-size: 100%;
+    font-size: 0;
+    text-indent: -999px;
+    margin: 6.666vw auto; }
+
+.star-rating {
+  display: inline-block;
+  width: 26vw;
+  font-size: 0;
+  vertical-align: text-bottom; }
+  .star-rating a {
+    display: inline-block;
+    width: 4.54vw;
+    height: 4.54vw;
+    margin-left: .66vw;
+    background: url("/_ui/img/m/icn/icn-star-off.png") no-repeat center;
+    background-size: 100%; }
+  .star-rating .on {
+    background: url("/_ui/img/m/icn/icn-star-on.png") no-repeat center;
+    background-size: 100%; }
+
+.star-rating.registered a {
+  cursor: default; }
+
+.list-non {
+  text-align: center;
+  padding: 51.33vw 0;
+  font-size: 4.26vw;
+  color: #aaa;
+  background: #f3f4f7; }
+
+.h1-top {
+  position: relative; }
+  .h1-top .pop-close {
+    background: url("/_ui/img/m/icn/icn-close.png") no-repeat;
+    background-size: 100%;
+    top: 5.333vw;
+    right: 4.8vw;
+    width: 4vw;
+    height: 4vw;
+    font-size: 0;
+    text-indent: -9999px;
+    display: block;
+    position: absolute; }
+  .h1-top h1 {
+    font-size: 4.533vw;
+    color: #1f1f1f;
+    text-align: center;
+    font-weight: 700;
+    padding: 5.333vw 0 0; }
+
+.box-write .grade {
+  padding: 12.66vw 0 10.933vw;
+  text-align: center; }
+  .box-write .grade .star-rating {
+    width: 36.6vw; }
+    .box-write .grade .star-rating a {
+      width: 6.66vw;
+      height: 6.66vw; }
+  .box-write .grade .txt {
+    padding-top: .8vw;
+    font-size: 3.2vw;
+    color: #aaa;
+    letter-spacing: 2px; }
+
+.box-write .form-review {
+  padding: 0 4.8vw; }
+  .box-write .form-review input,
+  .box-write .form-review select,
+  .box-write .form-review textarea {
+    display: block;
+    width: 100%;
+    font-size: 3.733vw;
+    border: 0;
+    border-bottom: .266vw solid #eee;
+    background: #fff;
+    outline: none; }
+  .box-write .form-review input {
+    padding: 3.33vw 0; }
+  .box-write .form-review select {
+    margin-top: 4vw;
+    padding: 3.33vw 0;
+    color: #898989;
+    background: url("/_ui/img/m/icn/icn-arrow02.png") no-repeat 94% 50%;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none; }
+  .box-write .form-review textarea {
+    min-height: 56vw;
+    margin-top: 6.66vw;
+    resize: none; }
+  .box-write .form-review .filebox {
+    position: relative;
+    margin: 3.2vw 0; }
+    .box-write .form-review .filebox label {
+      display: inline-block;
+      width: 11.2vw;
+      height: 11.2vw;
+      background: url("/_ui/img/m/icn/icn-file.jpg") no-repeat;
+      background-size: contain;
+      cursor: pointer;
+      text-indent: -999px; }
+    .box-write .form-review .filebox .btn-file {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      border: 0; }
+    .box-write .form-review .filebox small {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      font-size: 3.2vw;
+      color: #ccc;
+      line-height: 11.2vw; }
+  .box-write .form-review #gallery img {
+    width: 100%; }
+
+.box-write .btns {
+  width: 91%;
+  margin: 0 auto;
+  padding: 9.6vw 0 6.93vw;
+  text-align: center; }
+  .box-write .btns a {
+    display: inline-block;
+    width: 43.466vw;
+    height: 10.4vw;
+    font-size: 3.466vw;
+    line-height: 10.4vw; }
+  .box-write .btns .click-cl {
+    color: #1f1f1f;
+    background: #fff;
+    border: .266vw solid #f1f1f1; }
+  .box-write .btns .click-rgt {
+    float: right;
+    background: #1f1f1f;
+    color: #fff;
+    border: .266vw solid #1f1f1f; }
+
+@media (min-width: 750px) {
+  .box-list .list-review {
+    padding-top: 34px;
+    padding-bottom: 1px; }
+    .box-list .list-review .prdt {
+      margin-bottom: 16px;
+      padding: 22px; }
+      .box-list .list-review .prdt .box-cnt {
+        padding-left: 34px; }
+        .box-list .list-review .prdt .box-cnt .brand {
+          padding-top: 15px;
+          font-size: 20px; }
+        .box-list .list-review .prdt .box-cnt .code {
+          padding-top: 15px;
+          font-size: 20px; }
+        .box-list .list-review .prdt .box-cnt .pd-name {
+          margin-top: 20px;
+          margin-bottom: 40px;
+          font-size: 26px; }
+        .box-list .list-review .prdt .box-cnt .pd-ot {
+          font-size: 24px; }
+        .box-list .list-review .prdt .box-cnt .pd-prc {
+          margin-top: 10px;
+          font-size: 26px; }
+      .box-list .list-review .prdt .btn-wrt {
+        bottom: 22px;
+        right: 20px; }
+        .box-list .list-review .prdt .btn-wrt a {
+          width: 124px;
+          height: 54px;
+          border: 2px solid #f1f1f1;
+          font-size: 24px;
+          line-height: 54px; }
+    .box-list .list-review .rgstd-cnts {
+      margin-bottom: 16px;
+      padding: 36px; }
+      .box-list .list-review .rgstd-cnts .date {
+        font-size: 24px; }
+      .box-list .list-review .rgstd-cnts .txt {
+        font-size: 28px; }
+        .box-list .list-review .rgstd-cnts .txt dt {
+          margin: 36px 0 28px; }
+        .box-list .list-review .rgstd-cnts .txt dd {
+          margin-bottom: 10px; }
+      .box-list .list-review .rgstd-cnts .rgstd-img {
+        width: 200px;
+        margin-top: 34px; }
+      .box-list .list-review .rgstd-cnts .btn-menu {
+        margin-top: 92px; }
+        .box-list .list-review .rgstd-cnts .btn-menu a {
+          font-size: 30px; }
+        .box-list .list-review .rgstd-cnts .btn-menu .sns {
+          height: 30px;
+          margin-right: 60px; }
+        .box-list .list-review .rgstd-cnts .btn-menu .fb {
+          width: 17px; }
+        .box-list .list-review .rgstd-cnts .btn-menu .kakao {
+          width: 38px; }
+        .box-list .list-review .rgstd-cnts .btn-menu .url {
+          width: 50px; }
+    .box-list .list-review .registed .prdt {
+      margin-bottom: 2px; }
+  .box-list .more {
+    width: 58px;
+    height: 58px;
+    margin: 50px auto; }
+  .star-rating {
+    width: 195px; }
+    .star-rating a {
+      margin-left: 5px;
+      width: 34px;
+      height: 34px; }
+  .list-non {
+    padding: 385px 0;
+    font-size: 32px; }
+  .h1-top .pop-close {
+    top: 40px;
+    right: 36px;
+    width: 30px;
+    height: 30px; }
+  .h1-top h1 {
+    font-size: 34px;
+    padding: 40px 0 0; }
+  .box-write .grade {
+    padding: 95px 0 82px; }
+    .box-write .grade .star-rating {
+      width: 275px; }
+      .box-write .grade .star-rating a {
+        width: 50px;
+        height: 50px; }
+    .box-write .grade .txt {
+      padding-top: 6px;
+      font-size: 24px; }
+  .box-write .form-review {
+    padding: 0 36px; }
+    .box-write .form-review input,
+    .box-write .form-review select,
+    .box-write .form-review textarea {
+      font-size: 28px;
+      border-bottom: 2px solid #eee; }
+    .box-write .form-review input {
+      padding: 25px 0; }
+    .box-write .form-review select {
+      margin-top: 30px;
+      padding: 25px 0; }
+    .box-write .form-review textarea {
+      min-height: 420px;
+      margin-top: 50px; }
+    .box-write .form-review .filebox {
+      margin: 24px 0; }
+      .box-write .form-review .filebox label {
+        width: 84px;
+        height: 84px; }
+      .box-write .form-review .filebox small {
+        font-size: 24px;
+        line-height: 84px; }
+  .box-write .btns {
+    padding: 72px 0 52px; }
+    .box-write .btns a {
+      width: 326px;
+      height: 78px;
+      font-size: 26px;
+      line-height: 78px; }
+    .box-write .btns .click-cl {
+      border: 2px solid #f1f1f1; }
+    .box-write .btns .click-rgt {
+      border: 2px solid #1f1f1f; } }
+
+/*# sourceMappingURL=Review.css.map */

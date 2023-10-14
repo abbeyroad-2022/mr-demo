@@ -1,0 +1,470 @@
+.contact {
+  margin: 78px 0 140px; }
+  .contact h3 {
+    margin-bottom: 52px;
+    font-size: 22px;
+    color: #1f1f1f; }
+  .contact .notice {
+    color: #898989;
+    line-height: 1.8571;
+    margin-bottom: 60px;
+    padding: 34px;
+    background-color: #f8f8f8; }
+    .contact .notice li::before {
+      content: '';
+      vertical-align: middle;
+      display: inline-block;
+      width: 2px;
+      height: 2px;
+      margin-right: 6px;
+      background-color: #aaa; }
+    .contact .notice li a {
+      color: #1f1f1f; }
+  .contact .consulting-history {
+    margin-bottom: 50px;
+    padding: 60px 0 40px;
+    border-top: 4px solid #1f1f1f;
+    border-bottom: 1px solid #1f1f1f; }
+    .contact .consulting-history .history,
+    .contact .consulting-history .consulting {
+      vertical-align: middle;
+      display: inline-block;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box; }
+    .contact .consulting-history .history {
+      text-align: center;
+      width: 528px; }
+      .contact .consulting-history .history li {
+        position: relative;
+        display: inline-block;
+        width: 150px; }
+        .contact .consulting-history .history li::before {
+          content: '';
+          position: absolute;
+          left: 0;
+          top: 8px;
+          display: block;
+          width: 1px;
+          height: 60px;
+          background-color: #f1f1f1; }
+        .contact .consulting-history .history li:first-child:before {
+          display: none; }
+        .contact .consulting-history .history li strong,
+        .contact .consulting-history .history li span {
+          display: block; }
+        .contact .consulting-history .history li strong {
+          margin-bottom: 15px;
+          font-size: 14px;
+          font-weight: normal; }
+        .contact .consulting-history .history li span {
+          font-size: 40px;
+          font-weight: bold; }
+    .contact .consulting-history .consulting {
+      font-size: 14px; }
+      .contact .consulting-history .consulting .notice {
+        margin-bottom: 20px;
+        padding: 0;
+        background-color: transparent; }
+      .contact .consulting-history .consulting .btn {
+        color: #000;
+        border: 1px solid #dedede;
+        background-color: #fff; }
+  .contact .question-form {
+    font-size: 14px; }
+    .contact .question-form dt,
+    .contact .question-form dd {
+      float: left;
+      margin-bottom: 40px; }
+    .contact .question-form dt {
+      width: 100px; }
+      .contact .question-form dt .required {
+        font: 0/0 a;
+        vertical-align: middle;
+        display: inline-block;
+        width: 4px;
+        height: 4px;
+        margin-left: 5px;
+        border-radius: 50%;
+        background-color: #f23d4e; }
+    .contact .question-form dd {
+      width: 872px;
+      min-height: 25px; }
+      .contact .question-form dd .select {
+        position: relative;
+        top: -13px; }
+      .contact .question-form dd .row::after {
+        content: '';
+        display: block;
+        clear: both; }
+      .contact .question-form dd .col-1 {
+        float: left;
+        width: 374px;
+        margin-right: 24px; }
+      .contact .question-form dd .col-2 {
+        float: left;
+        width: 244px; }
+      .contact .question-form dd .inline-form {
+        display: table; }
+        .contact .question-form dd .inline-form input,
+        .contact .question-form dd .inline-form .split {
+          display: table-cell; }
+        .contact .question-form dd .inline-form .split {
+          vertical-align: middle;
+          padding: 0 5px; }
+      .contact .question-form dd .buttons {
+        margin-top: -9px; }
+      .contact .question-form dd .add-file {
+        float: left; }
+        .contact .question-form dd .add-file .file-upload-wrapper {
+          display: inline-block;
+          position: relative; }
+          .contact .question-form dd .add-file .file-upload-wrapper .upload-file-wrapper span {
+            display: inline-block;
+            max-width: 530px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            line-height: 1.1; }
+        .contact .question-form dd .add-file .file {
+          vertical-align: top;
+          position: relative;
+          overflow: hidden;
+          display: inline-block;
+          margin-top: -9px; }
+          .contact .question-form dd .add-file .file input[type="file"] {
+            font-size: 100px;
+            vertical-align: top;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0; }
+          .contact .question-form dd .add-file .file .upload-file {
+            max-width: 350px;
+            display: inline-block;
+            margin-top: 15px;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis; }
+        .contact .question-form dd .add-file .thumb {
+          float: left;
+          text-align: center;
+          white-space: nowrap;
+          position: relative;
+          display: inline-block;
+          width: 78px;
+          height: 78px;
+          margin: -9px 16px 0 0;
+          border: 1px solid  #dedede;
+          background-color: #000; }
+          .contact .question-form dd .add-file .thumb .delete {
+            font: 0/0 a;
+            position: absolute;
+            top: 0;
+            right: 0;
+            display: block;
+            width: 20px;
+            height: 20px;
+            background: #000 url("/_ui/img/pc/icn/icn-file-delete.png") no-repeat 50% 50%; }
+          .contact .question-form dd .add-file .thumb canvas {
+            height: 78px; }
+          .contact .question-form dd .add-file .thumb img {
+            vertical-align: middle;
+            display: inline-block;
+            width: auto;
+            max-width: 100%;
+            max-height: 100%; }
+          .contact .question-form dd .add-file .thumb::after {
+            content: '';
+            vertical-align: middle;
+            display: inline-block;
+            height: 100%; }
+        .contact .question-form dd .add-file .thumb.hidden {
+          display: none; }
+      .contact .question-form dd .desc {
+        color: #000;
+        font-size: 12px; }
+        .contact .question-form dd .desc::before {
+          content: '';
+          vertical-align: middle;
+          display: inline-block;
+          width: 2px;
+          height: 2px;
+          margin-right: 4px;
+          background: #8a8a8a; }
+      .contact .question-form dd .desc.inline {
+        color: #898989;
+        font-size: 14px;
+        display: inline-block;
+        margin-left: 15px; }
+        .contact .question-form dd .desc.inline::before {
+          display: none; }
+      .contact .question-form dd .select-product {
+        position: relative;
+        margin-top: 14px;
+        padding: 22px 33px 18px 24px;
+        border: 1px solid #dedede; }
+        .contact .question-form dd .select-product .thumb {
+          float: left;
+          position: relative;
+          margin-right: 20px; }
+          .contact .question-form dd .select-product .thumb::before {
+            content: '';
+            position: absolute;
+            display: block;
+            opacity: .03;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background: #000;
+            z-index: 1; }
+          .contact .question-form dd .select-product .thumb img {
+            width: auto; }
+        .contact .question-form dd .select-product .product {
+          font-size: 14px;
+          float: left; }
+          .contact .question-form dd .select-product .product h4 {
+            font-weight: bold;
+            margin: 10px 0 13px; }
+          .contact .question-form dd .select-product .product p {
+            height: 50px; }
+        .contact .question-form dd .select-product .change-product {
+          position: absolute;
+          right: 33px;
+          bottom: 18px; }
+        .contact .question-form dd .select-product .btn-close {
+          font: 0/0 a;
+          position: absolute;
+          right: 33px;
+          top: 22px;
+          width: 15px;
+          height: 15px;
+          background: url("/_ui/img/pc/icn/icn-close.png") no-repeat; }
+        .contact .question-form dd .select-product::after {
+          content: '';
+          display: block;
+          clear: both; }
+      .contact .question-form dd .content {
+        color: #1f1f1f;
+        line-height: 1.7143; }
+      .contact .question-form dd input[type="text"],
+      .contact .question-form dd textarea {
+        width: 100%;
+        margin-top: -13px;
+        font-size: 14px; }
+      .contact .question-form dd input[type="text"] {
+        height: 38px; }
+      .contact .question-form dd textarea {
+        height: 130px;
+        padding: 13px 0 0;
+        resize: none;
+        outline: none; }
+      .contact .question-form dd::after {
+        content: '';
+        display: block;
+        clear: both; }
+    .contact .question-form::after {
+      content: '';
+      display: block;
+      clear: both; }
+  .contact .qna-form dl dt.ques, .contact .qna-form dl .answer-wrap {
+    padding: 23px 45px 23px 34px;
+    font-size: 0; }
+    .contact .qna-form dl dt.ques span, .contact .qna-form dl .answer-wrap span {
+      display: inline-block;
+      font-size: 14px;
+      vertical-align: middle; }
+    .contact .qna-form dl dt.ques .process, .contact .qna-form dl .answer-wrap .process {
+      width: 100px;
+      vertical-align: top; }
+    .contact .qna-form dl dt.ques .subject, .contact .qna-form dl .answer-wrap .subject {
+      width: 72%; }
+    .contact .qna-form dl dt.ques .has-photo, .contact .qna-form dl .answer-wrap .has-photo {
+      width: 16px;
+      height: 16px;
+      vertical-align: sub;
+      background: url(/_ui/img/pc/icn/icn-photo.png) no-repeat center;
+      float: right;
+      margin: 2px 29px 0px 0; }
+    .contact .qna-form dl dt.ques .date, .contact .qna-form dl .answer-wrap .date {
+      width: 80px;
+      float: right;
+      text-align: center;
+      font-size: 13.5px; }
+    .contact .qna-form dl dt.ques::after, .contact .qna-form dl .answer-wrap::after {
+      margin-top: -5px; }
+  .contact .qna-form dl dd.question-wrap {
+    padding: 0 220px 34px 164px;
+    background: none;
+    color: #1f1f1f; }
+    .contact .qna-form dl dd.question-wrap .select-product {
+      position: relative;
+      margin: 14px 0;
+      padding: 18px;
+      border: 1px solid #dedede; }
+      .contact .qna-form dl dd.question-wrap .select-product .thumb {
+        float: left;
+        position: relative;
+        margin-right: 20px; }
+        .contact .qna-form dl dd.question-wrap .select-product .thumb::before {
+          content: '';
+          position: absolute;
+          display: block;
+          opacity: .03;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          background: #000;
+          z-index: 1; }
+        .contact .qna-form dl dd.question-wrap .select-product .thumb img {
+          width: auto;
+          max-width: 96px;
+          height: 96px;
+          -o-object-fit: contain;
+             object-fit: contain; }
+      .contact .qna-form dl dd.question-wrap .select-product .product {
+        width: 466px;
+        overflow: hidden;
+        font-size: 14px;
+        float: left; }
+        .contact .qna-form dl dd.question-wrap .select-product .product .brand {
+          font-weight: 900;
+          font-size: 13px; }
+        .contact .qna-form dl dd.question-wrap .select-product .product p {
+          margin: 5px 0 10px; }
+        .contact .qna-form dl dd.question-wrap .select-product .product .code {
+          float: right;
+          color: #898989;
+          font-size: 13px; }
+        .contact .qna-form dl dd.question-wrap .select-product .product .price .discount {
+          color: #9ba4b0;
+          margin-right: 5px; }
+      .contact .qna-form dl dd.question-wrap .select-product::after {
+        content: '';
+        display: block;
+        clear: both; }
+  .contact .qna-form dl dd.answer-wrap {
+    padding: 23px 75px 23px 64px;
+    background-position: 30px 24px; }
+    .contact .qna-form dl dd.answer-wrap .img-link {
+      margin-left: 100px; }
+  .contact .qna-form dl .img-link {
+    margin-top: 20px;
+    font-size: 14px; }
+    .contact .qna-form dl .img-link a {
+      text-decoration: underline; }
+
+.layer-select-layer .layer .inner {
+  padding-bottom: 0; }
+
+.layer-select-layer .layer .content {
+  padding-bottom: 60px; }
+  .layer-select-layer .layer .content h2 {
+    font-size: 14px; }
+  .layer-select-layer .layer .content .tab {
+    padding-bottom: 0; }
+    .layer-select-layer .layer .content .tab a {
+      padding: 10px 0; }
+  .layer-select-layer .layer .content .search-date {
+    margin: 0 0 40px;
+    padding: 34px 30px;
+    background-color: #f8f8f8; }
+    .layer-select-layer .layer .content .search-date .tab li {
+      width: 73px;
+      background-color: #fff; }
+      .layer-select-layer .layer .content .search-date .tab li a {
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        height: 30px;
+        padding: 0;
+        line-height: 30px;
+        font-size: 12px; }
+    .layer-select-layer .layer .content .search-date .tab .on {
+      background-color: #898989; }
+    .layer-select-layer .layer .content .search-date .date input,
+    .layer-select-layer .layer .content .search-date .date button,
+    .layer-select-layer .layer .content .search-date .date .split {
+      line-height: 30px;
+      height: 30px; }
+    .layer-select-layer .layer .content .search-date .date input {
+      width: 116px;
+      background-color: #fff;
+      background-position: 78px 50%;
+      font-size: 12px; }
+    .layer-select-layer .layer .content .search-date .date button {
+      line-height: 31px;
+      font-size: 12px; }
+  .layer-select-layer .layer .content .list {
+    position: relative;
+    display: table;
+    width: 100%;
+    padding: 16px 0;
+    border-bottom: 1px solid #e8e8e8; }
+    .layer-select-layer .layer .content .list .summary {
+      font-size: 12px;
+      position: absolute;
+      top: 30px;
+      left: 0; }
+      .layer-select-layer .layer .content .list .summary .date {
+        color: #898989;
+        margin-left: 10px; }
+    .layer-select-layer .layer .content .list .thumb {
+      display: table-cell;
+      width: 72px; }
+      .layer-select-layer .layer .content .list .thumb a img {
+        width: 100%; }
+    .layer-select-layer .layer .content .list .product,
+    .layer-select-layer .layer .content .list .options,
+    .layer-select-layer .layer .content .list .price,
+    .layer-select-layer .layer .content .list .select {
+      vertical-align: middle;
+      display: table-cell; }
+    .layer-select-layer .layer .content .list .product {
+      padding-left: 20px;
+      padding-right: 20px; }
+      .layer-select-layer .layer .content .list .product h3 {
+        font-size: 10px;
+        font-weight: 700; }
+      .layer-select-layer .layer .content .list .product p {
+        font-size: 15px;
+        height: 22px;
+        margin: 15px 0; }
+        .layer-select-layer .layer .content .list .product p a {
+          color: #1f1f1f;
+          max-width: 300px;
+          display: block;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          white-space: nowrap; }
+      .layer-select-layer .layer .content .list .product small {
+        color: #898989;
+        font-size: 11px; }
+    .layer-select-layer .layer .content .list .options {
+      color: #1f1f1f;
+      font-size: 12px;
+      width: 140px; }
+      .layer-select-layer .layer .content .list .options strong {
+        font-weight: normal;
+        display: inline-block;
+        width: 32px; }
+    .layer-select-layer .layer .content .list .price {
+      width: 120px;
+      padding-right: 20px;
+      font-size: 15px; }
+    .layer-select-layer .layer .content .list .select {
+      width: 86px; }
+      .layer-select-layer .layer .content .list .select .btn {
+        width: 100%;
+        padding: 0; }
+  .layer-select-layer .layer .content .lists .no-result {
+    color: #898989;
+    font-size: 16px;
+    text-align: center;
+    padding: 130px 0; }
+  .layer-select-layer .layer .content .tab-cnt-1 .list {
+    padding-top: 55px; }
+
+/*# sourceMappingURL=Contact.css.map */

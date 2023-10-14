@@ -1,0 +1,422 @@
+.scr-navi.brand-index a {
+  font-size: 4.14vw; }
+
+.scr-navi.brand-index .swiper-wrapper .swiper-slide:first-child {
+  padding: 0 2.66vw 0 4vw; }
+
+.scr-navi.brand-index .swiper-wrapper .swiper-slide:last-child {
+  padding-right: 6vw; }
+
+.scr-navi.brand-list a {
+  font-size: 4.14vw; }
+
+.brand-top .swiper-slide {
+  width: 100%; }
+  .brand-top .swiper-slide a {
+    display: block; }
+    .brand-top .swiper-slide a img {
+      width: 100%; }
+
+.brand-shop .swiper-slide {
+  width: 33.3333%; }
+  .brand-shop .swiper-slide a {
+    display: block;
+    position: relative; }
+    .brand-shop .swiper-slide a .img {
+      display: block; }
+      .brand-shop .swiper-slide a .img img {
+        width: 100%; }
+    .brand-shop .swiper-slide a .txt {
+      direction: block;
+      position: absolute;
+      top: 50%;
+      margin-top: -1.333vw;
+      width: 100%;
+      color: #fff;
+      font-size: 2.666vw;
+      font-weight: 700;
+      line-height: 2.933vw;
+      text-align: center; }
+
+.brand-main {
+  position: relative;
+  height: 133.333vw; }
+  .brand-main .img-area {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #2c3e50; }
+  .brand-main .txt-area {
+    position: absolute;
+    top: 80vw;
+    left: 7.466vw;
+    font-size: 8.266vw;
+    font-family: 'helvetica';
+    color: #fff;
+    font-weight: 700; }
+    .brand-main .txt-area::after {
+      content: '';
+      display: block;
+      margin-top: 5.2vw;
+      width: 28.533vw;
+      height: .266vw;
+      background: #fff; }
+  .brand-main .scr-navi {
+    bottom: 2vw;
+    position: absolute; }
+    .brand-main .scr-navi .swiper-slide {
+      background: none;
+      padding: 0 3.733vw; }
+      .brand-main .scr-navi .swiper-slide:first-child {
+        padding-left: 7.466vw; }
+      .brand-main .scr-navi .swiper-slide:last-child {
+        padding-right: 7.466vw; }
+      .brand-main .scr-navi .swiper-slide a {
+        color: #fff;
+        font-weight: 300;
+        font-size: 4vw; }
+
+.prod-list-top.mt2 {
+  margin: 12vw 0 9.333vw; }
+
+.prod-list-top.mt3 {
+  margin: 10.666vw 0 6vw; }
+
+.bnr-more {
+  display: block;
+  width: 7.733vw;
+  height: 7.733vw;
+  background: url("/_ui/img/m/icn/icn-more.png") no-repeat;
+  background-size: 100%;
+  font-size: 0;
+  text-indent: -9999px;
+  margin: 10.666vw auto 16.4vw; }
+
+.brand-bts {
+  overflow: hidden;
+  padding: 0 4.8vw 12vw; }
+  .brand-bts a {
+    display: block;
+    border: 2px #000 solid;
+    height: 9.066vw;
+    line-height: 8vw;
+    text-align: center;
+    font-size: 3.733vw;
+    color: #1f1f1f;
+    font-weight: 700;
+    width: 43.733vw;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    float: left; }
+  .brand-bts a + a {
+    margin-left: 2.933vw; }
+
+.brand-intro .b-top {
+  padding: 9.333vw 7.333vw 6.133vw; }
+  .brand-intro .b-top h3 {
+    font-weight: 700;
+    font-family: 'helvetica';
+    font-size: 4.8vw;
+    color: #1f1f1f; }
+
+.brand-intro .b-img {
+  width: 85.333vw; }
+
+.brand-intro .b-disc {
+  padding: 8.933vw 6.666vw 15.333vw; }
+  .brand-intro .b-disc p {
+    font-size: 3.733vw;
+    margin-top: 8vw;
+    letter-spacing: -.213vw;
+    line-height: 6.133vw;
+    color: #1f1f1f; }
+    .brand-intro .b-disc p:first-child {
+      margin-top: 0; }
+
+.brand-intro h4 {
+  font-size: 4.266vw;
+  font-weight: 700;
+  color: #1f1f1f;
+  font-family: 'helvetica';
+  padding: 0 7.333vw 5.866vw; }
+
+.brand-intro .b-collection {
+  background: #ecdfce;
+  padding: 4.933vw 0 0; }
+  .brand-intro .b-collection a {
+    display: block;
+    padding: 2.8vw 0 4.8vw; }
+  .brand-intro .b-collection img {
+    width: 54vw;
+    margin: 0 auto; }
+  .brand-intro .b-collection span {
+    font-size: 2.933vw;
+    color: #a7a7a7;
+    text-decoration: underline;
+    text-align: center;
+    display: block;
+    margin-top: 4.8vw; }
+
+.h1-top {
+  position: relative; }
+  .h1-top .pop-close {
+    background: url("/_ui/img/m/icn/icn-close.png") no-repeat;
+    background-size: 100%;
+    top: 5.333vw;
+    right: 4.8vw;
+    width: 4vw;
+    height: 4vw;
+    font-size: 0;
+    text-indent: -9999px;
+    display: block;
+    position: absolute; }
+  .h1-top .pop-close.close2 {
+    top: 6.4vw; }
+  .h1-top h1 {
+    font-size: 4.533vw;
+    color: #1f1f1f;
+    text-align: center;
+    font-weight: 700;
+    padding: 5.333vw 0 0; }
+
+.brand-main-img {
+  position: relative; }
+  .brand-main-img .brand-main-img-holder {
+    padding-bottom: 54.4%; }
+  .brand-main-img img {
+    position: absolute;
+    top: 0;
+    width: 100%; }
+
+.brand-main-new {
+  position: relative;
+  height: 54.4vw;
+  padding-top: 14.4vw;
+  text-align: center; }
+  .brand-main-new .wrap-txt {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%); }
+    .brand-main-new .wrap-txt h2 {
+      font-size: 5.866vw;
+      font-weight: 700;
+      color: #242424; }
+    .brand-main-new .wrap-txt p {
+      margin-top: 4vw;
+      font-size: 2.933vw;
+      color: #aaa; }
+
+.prod-big-bnr .h-space {
+  margin-bottom: 2.133vw; }
+
+.shop-list {
+  position: relative; }
+  .shop-list .shop {
+    position: relative;
+    font-size: 0; }
+    .shop-list .shop img {
+      width: 33.3vw; }
+      .shop-list .shop img:last-child {
+        margin-left: -33.3vw; }
+    .shop-list .shop p {
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      text-align: center;
+      font-size: 2.666vw;
+      color: #fff; }
+  .shop-list .swiper-pagination {
+    position: absolute;
+    top: -22%;
+    right: 5%;
+    font-size: 3.2vw;
+    color: #ccc; }
+    .shop-list .swiper-pagination .swiper-pagination-current {
+      color: #1f1f1f; }
+
+.tab {
+  padding-top: 14.4vw; }
+  .tab li {
+    float: left;
+    width: 25%;
+    padding: 7.33vw 0 4.266vw;
+    text-align: center; }
+    .tab li a {
+      font-size: 3.466vw;
+      font-weight: 700;
+      color: #1f1f1f; }
+  .tab .on {
+    border-bottom: 2px solid #000; }
+
+.brand-skin .skin-wide img {
+  width: 100%; }
+
+.brand-skin .bottom {
+  overflow: hidden;
+  padding-top: 2.933vw; }
+  .brand-skin .bottom img {
+    float: left;
+    width: 50%; }
+
+.season-only {
+  padding-bottom: 13.066vw;
+  border-bottom: 1.066vw solid #000; }
+  .season-only .season-only-list {
+    overflow: hidden; }
+    .season-only .season-only-list li {
+      float: left;
+      width: 33.3%;
+      cursor: pointer; }
+      .season-only .season-only-list li a {
+        display: block; }
+      .season-only .season-only-list li p {
+        font-size: 2.933vw;
+        font-weight: bold;
+        color: #1f1f1f;
+        text-align: center;
+        text-transform: uppercase; }
+
+.btm-bnr {
+  padding-bottom: 12.8vw; }
+  .btm-bnr div {
+    width: 100%;
+    margin-bottom: 2.133vw; }
+    .btm-bnr div a {
+      display: block;
+      width: 100%; }
+
+@media (min-width: 750px) {
+  .list-scr-navi {
+    width: 678px; }
+    .list-scr-navi .swiper-wrapper .swiper-slide {
+      padding: 0 20px; }
+      .list-scr-navi .swiper-wrapper .swiper-slide a {
+        font-size: 31px; }
+      .list-scr-navi .swiper-wrapper .swiper-slide:first-child {
+        padding-left: 0; }
+    .list-scr-navi .swiper-wrapper + .icn-navi {
+      width: 35px;
+      height: 115px;
+      right: -36px; }
+    .list-scr-navi .swiper-wrapper + .icn-navi.left {
+      left: -36px; }
+  .scr-navi.brand-index a {
+    font-size: 31px; }
+  .scr-navi.brand-index .swiper-wrapper .swiper-slide:last-child {
+    padding-right: 45px; }
+  .brand-main {
+    height: 1000px; }
+    .brand-main .txt-area {
+      top: 600px;
+      left: 56px;
+      font-size: 62px; }
+      .brand-main .txt-area::after {
+        margin-top: 39px;
+        width: 214px;
+        height: 2px; }
+    .brand-main .scr-navi {
+      bottom: 15px; }
+      .brand-main .scr-navi .swiper-slide {
+        padding: 0 28px; }
+        .brand-main .scr-navi .swiper-slide:first-child {
+          padding-left: 56px; }
+        .brand-main .scr-navi .swiper-slide:last-child {
+          padding-right: 56px; }
+        .brand-main .scr-navi .swiper-slide a {
+          font-size: 31px; }
+  .brand-shop .swiper-slide a .txt {
+    margin-top: -11px;
+    font-size: 20px;
+    line-height: 22px; }
+  .prod-list-top.mt2 {
+    margin: 90px 0 70px; }
+  .prod-list-top.mt3 {
+    margin: 80px 0 45px; }
+  .bnr-more {
+    width: 58px;
+    height: 58px;
+    margin: 80px auto 123px; }
+  .brand-bts {
+    padding: 0 36px 90px; }
+    .brand-bts a {
+      display: block;
+      border: 4px #000 solid;
+      height: 68px;
+      line-height: 60px;
+      font-size: 30px;
+      width: 328px; }
+    .brand-bts a + a {
+      margin-left: 22px; }
+  .brand-intro .b-top {
+    padding: 70px 55px 46px; }
+    .brand-intro .b-top h3 {
+      font-size: 36px; }
+  .brand-intro .b-img {
+    width: 640px; }
+  .brand-intro .b-disc {
+    padding: 67px 50px 115px; }
+    .brand-intro .b-disc p {
+      font-size: 28px;
+      margin-top: 60px;
+      letter-spacing: -1.6px;
+      line-height: 46px; }
+  .brand-intro h4 {
+    font-size: 32px;
+    padding: 0 55px 44px; }
+  .brand-intro .b-collection {
+    padding: 73px 0 36px; }
+    .brand-intro .b-collection img {
+      width: 405px; }
+    .brand-intro .b-collection span {
+      font-size: 22px;
+      margin-top: 36px; }
+  .h1-top .pop-close {
+    top: 40px;
+    right: 36px;
+    width: 30px;
+    height: 30px; }
+  .h1-top .pop-close.close2 {
+    top: 48px; }
+  .h1-top h1 {
+    font-size: 34px;
+    padding: 40px 0 0; }
+  .brand-main-new {
+    height: 408px;
+    padding-top: 108px; }
+    .brand-main-new .wrap-txt h2 {
+      font-size: 44px; }
+    .brand-main-new .wrap-txt p {
+      margin-top: 30px;
+      font-size: 22px; }
+  .prod-big-bnr .h-space {
+    margin-bottom: 16px; }
+  .shop-list .shop img {
+    width: 250px; }
+  .shop-list .shop p {
+    font-size: 20px; }
+  .shop-list .swiper-pagination {
+    font-size: 24px; }
+  .tab {
+    padding-top: 108px; }
+    .tab li {
+      padding: 55px 0 32px; }
+      .tab li a {
+        font-size: 26px; }
+  .brand-skin .bottom {
+    padding-top: 22px; }
+  .season-only {
+    padding-bottom: 98px;
+    border-bottom: 8px solid #000; }
+    .season-only .season-only-list li p {
+      font-size: 22px; }
+  .btm-bnr {
+    padding-bottom: 96px; }
+    .btm-bnr div {
+      margin-bottom: 16px; } }
+
+/*# sourceMappingURL=Brand.css.map */

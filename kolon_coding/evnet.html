@@ -1,0 +1,1133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>코오롱몰</title>
+    <meta charset="utf-8">
+    <meta name="description" content="코오롱몰에 오신걸 환영합니다.">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+    <meta content="2403e60a-ba41-44f1-8be9-ed38b6aaebaf" name="csrf-token">
+    
+    <link rel="shortcut icon" href="_ui/img/favicon.ico"/>
+    <link rel="icon" href="../kolon_coding/_ui/img/favicon-32.png" sizes="32x32">
+    <link rel="icon" href="../kolon_coding/_ui/img/favicon-128.png" sizes="128x128">
+    
+    <link rel="stylesheet" href="../kolon_coding/_ui/css/kop/common.css" />
+    <link rel="stylesheet" href="../kolon_coding/_ui/css/kop/desktop/application.css" />
+    <link rel="stylesheet" href="../kolon_coding/_ui/css/build/kop/desktop.bundle.css" />
+    <link rel="stylesheet" href="../kolon_coding/_ui/css/kop/desktop/Content.css" />
+    <link rel="apple-touch-icon-precomposed" href="../kolon_coding/_ui/img/favicon-152.png">
+    <script src="../kolon_coding/_ui/js/lib/webfont.js"></script>
+    <link rel="stylesheet" href="../kolon_coding/_ui/css/kop/desktop/Special.css" />
+    <script>
+        var scriptQueue = [];
+    </script>
+</head>
+
+<body class="joykolon-site">
+    <div class="sub kolon-wrap">
+        <header class="kolon-header">
+            <div class="header-nav">
+                <h2 class="hidden">KOLONmall 메인메뉴</h2>
+                <div class="gnb">
+                <a href="/"><h1 class="logo">KOLONmall</h1></a>
+                <ul>
+                    <li><a id="loginHeaderBtn" href="/Login">로그인</a> </li>
+                    <li><a href="/Membership/Sign">회원가입</a></li>
+                    <li><a href="/FAQ">고객센터</a></li>
+                    <li class="search"><a href="#">search</a></li>
+                    <li class="cart"><a href="/Cart"></a></li>
+                </ul>
+                <div class="searchbox">
+                    <div class="search-form">
+                        <i class="icn-search"></i>
+                        <input type="text" id="keyword" name="keyword" placeholder="검색어를 입력해 주세요.">
+                        <a class="close"></a>
+                    </div>
+                    <div class="search-layer">
+                        <div class="word recent">
+                            <strong>최근검색어</strong>
+                            <ul>
+                                <li>최근 검색어가 없습니다.</li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">트렌치코트</a><a class="del">삭제</a></li>
+                                <li><a href="#">청바지</a><a class="del">삭제</a></li>
+                                <li><a href="#">레깅스</a><a class="del">삭제</a></li>
+                                <li><a href="#">원피스</a><a class="del">삭제</a></li>
+                            </ul>
+                        </div>
+                        <div class="word popular">
+                            <strong>인기검색어</strong>
+                                <ul>  
+                                    <li><a href="/Search?keyword=배두나광고제품&pageNumber=1">배두나광고제품</a></li>
+                                </ul>
+                        </div>
+                    </div>
+                    <div class="typing-layer">
+                         <ul>
+                             <li><a href="#">여성 <span class="typing-word">스니커즈</span></a></li>
+                         </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="menu">
+                <ul class="category">
+                     <li>
+                        <a href="/Category/133010010000">MEN</a>
+                    </li>
+                    <li>
+                        <a href="/Category/133010020000">WOMEN</a>
+                    </li>
+                    <li>
+                        <a href="/Category/133010040000">LIFE</a>
+                    </li>
+                    <li>
+                        <a href="/Category/133010030000">OUTLET</a>
+                    </li>
+                </ul>
+                <ul class="etc">
+                    <li id="content"><a href="/Main/ContentCategory/GENERAL">에디터픽</a></li>
+                    <li id="special"><a href="/Special">기획전</a></li>
+                    <li id="event"><a href="/Event">이벤트</a></li>
+                    <!-- <li><a href="javascript: alert('준비중 입니다 :)');">상품평</a></li> -->
+                    <li id="brand"><a class="btn-brand">브랜드</a></li>
+                </ul>
+            </div>
+        </div>
+        </header>
+        <div class="kolon-content-wrap">
+    		<h2 class="hidden">KOLONmall 본문영역</h2>
+    		<section id="kolon-content">
+    			<article class="special-detail">
+    				<h3 class="special-detail-title">우리 아이의 겨울 아우터</h3>
+    				<div class="location">
+    					<span>FEATURE  / <a class="active">기획전</a></span>
+    				</div>
+    				<div class="page-function">
+    					<a class="function">공유</a>
+    					<div class="box-share">
+    						<a class="facebook share-facebook">facebook</a>
+    						<a class="url share-url">url</a>
+    					</div>
+    					<a class="list list-btn">컨텐츠 목록</a>					
+    				</div>
+
+    				<div class="detail-cont">
+						<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+						<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.css" />
+    					<!-- 210708 detail-cont-wrapper : s -->
+						<!-- @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap'); -->
+    					<div class="detail-cont-wrapper">
+
+                            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+							<style>
+                                /* reset + common */
+                                .event50{
+                                    overflow:hidden;
+                                    position:relative;
+                                    background-color: #fff;
+                                }
+                                .event50 *{
+                                    margin:0;
+                                    padding:0;
+                                    line-height:0;
+                                }
+                                .event50 img{
+                                    display:inline-block;
+                                    width:100%;
+                                    vertical-align:top;
+                                }
+								.event50 .clearfix:after {
+									content:'';
+									clear:both;
+									display: block;
+								}
+                                .event50 .rel{position:relative;}
+								.event50 .img,
+								.event50 .txt{position: absolute;}
+                                .event50 .btn{
+                                    font-size: 0;
+                                    text-indent: -9999px;
+                                    display: block;
+                                    position: absolute; 
+                                    background-color: transparent;
+                                }
+                                .event50 .tit_top .video_wrap {
+                                    width: 100%;
+                                }
+                                .event50 .tit_top .video_wrap .video {
+                                    padding-bottom: 56.25%;
+                                }
+                                .event50 .tit_top .video_wrap .video iframe {
+                                    position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                    width: 100% !important;
+                                    height: 100% !important;
+                                }
+                                .event50 .tit_top .txtWrap01 {
+                                    width: 42.72087%;  /*970px*/
+                                    height: 8.155%; /*88px*/
+                                    position: absolute;
+                                    top: 66.728%; /*720px*/
+                                    left: 10.416%; /*200px*/
+                                    display: flex;
+                                }
+                                .event50 .tit_top .txtWrap01 .txt {
+                                    height: 100%; /*88px*/
+                                    background-image: url("images/event50_tit_txt01.png");
+                                    background-repeat: no-repeat;
+                                    background-size: auto 100%;
+                                    position: unset;
+                                }
+                                .event50 .tit_top .txtWrap01 .txt01 {
+                                    width: 8.495%;
+                                    background-position: 0 0;
+                                }
+                                .event50 .tit_top .txtWrap01 .txt02 {
+                                    width: 10.952%;
+                                    background-position: 9.74% 0;
+                                }
+                                .event50 .tit_top .txtWrap01 .txt03 {
+                                    width: 7.453%;
+                                    background-position: 21.869% 0;
+                                }
+                                .event50 .tit_top .txtWrap01 .txt04 {
+                                    width: 10.952%;
+                                    background-position: 31.401% 0;
+                                }
+                                .event50 .tit_top .txtWrap01 .txt05 {
+                                    width: 10.931%;
+                                    background-position: 44.1304% 0;
+                                }
+                                .event50 .tit_top .txtWrap01 .txt06 {
+                                    width: 11.925%;
+                                    background-position: 56.863% 0;
+                                }
+                                .event50 .tit_top .txtWrap01 .txt07 {
+                                    width: 8.695%;
+                                    background-position: 67.986% 0;
+                                }
+                                .event50 .tit_top .txtWrap01 .txt08 {
+                                    width: 10.952%;
+                                    background-position: 79.597% 0;
+                                }
+                                .event50 .tit_top .txtWrap01 .txt09 {
+                                    width: 8.819%;
+                                    background-position: 90.397% 0;
+                                }
+                                .event50 .tit_top .txtWrap01 .txt10 {
+                                    width:8.019%;
+                                    background-position: 100% 0;
+                                }
+                                .event50 .tit_top .txtWrap01 .txt11 {
+                                    background-image: unset;
+                                }
+                                .event50 .tit_top .txtWrap02 {
+                                    width: 14.583%;
+                                    height: 8.155%;
+                                    position: absolute;
+                                    left: 54%;
+                                    top: 66.728%;
+                                    display: flex;
+                                    z-index: 10;
+                                }
+                                .event50 .tit_top .txtWrap02 .txt {position: unset;}
+                                .event50 .tit_top .txtWrap02 .txt50 {
+                                    width: 50%;
+                                }
+                                .event50 .tit_top .txtWrap02 .txt50.white svg,
+                                .event50 .tit_top .txtWrap02 .txtLogo.white svg,
+                                .event50 .tit_top .txtWrap02 .txt50.white g,
+                                .event50 .tit_top .txtWrap02 .txtLogo.white g {
+                                    fill: #fff !important;
+                                    width: 100% !important;
+                                    height: 100% !important;
+                                }
+                                .event50 .tit_top .txtWrap02 .txt50.green svg,
+                                .event50 .tit_top .txtWrap02 .txtLogo.green svg,
+                                .event50 .tit_top .txtWrap02 .txt50.green g,
+                                .event50 .tit_top .txtWrap02 .txtLogo.green g {
+                                    fill: #002a16 !important;
+                                }
+                                .event50 .tit_top .txtWrap02 .txtLogo {
+                                    opacity: 0;
+                                    width: 50%;
+                                }
+                                .event50 .tit_top .txtWrap03 {
+                                    position: absolute;
+                                    width: 39.322%; 
+                                    bottom: 15.9406%;
+                                    left: 10.416%;
+                                }
+                                .event50 .tit_top .txtWrap03 .txt {position: unset;}
+                                /* .event50 .tit_bot {
+                                    margin-top: -12.933vw;
+                                } */
+                                .event50 .tit_bot .txt01 {
+                                    width: 29.427%;
+                                    left: 10.052%;
+                                    top: 38.709%;
+                                }
+                                .event50 .tit_bot .txt02,.event50 .tit_bot .txt03, .event50 .tit_bot .txt04 {
+                                    width: 100%;
+                                    left: 0;
+                                    top: 0;
+                                }
+                                 /* animation */
+                                .animated{
+                                    visibility: hidden;
+                                    animation-name: none;
+                                    animation-duration:1.2s;
+                                    animation-fill-mode: both;
+                                }
+                                .fadeToTop {
+                                    visibility: visible;
+                                    animation-name: fadeToTop;
+                                    animation-duration:1.3s;
+                                    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+                                }
+                                @keyframes fadeToTop {
+                                0% {
+                                    opacity: 0;
+                                    -webkit-transform: translateY(50px);
+                                    -ms-transform: translateY(50px);
+                                    transform: translateY(50px);
+                                }
+                                100% {
+                                    opacity: 1;
+                                    -webkit-transform: translateY(0);
+                                    -ms-transform: translateY(0);
+                                    transform: translateY(0);
+                                }
+                                }
+                                .fadeToBottom3 {
+                                    visibility: visible;
+                                    animation-name: fadeToBottom3;
+                                    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+                                }
+                                @keyframes fadeToBottom3 {
+                                0% {
+                                    opacity: 0;
+                                    -webkit-transform: translateY(-50px);
+                                    -ms-transform: translateY(-50px);
+                                    transform: translateY(-50px);
+                                }
+                                100% {
+                                    opacity: 1;
+                                    -webkit-transform: translateY(0);
+                                    -ms-transform: translateY(0);
+                                    transform: translateY(0);
+                                }
+                                }
+                                .fadeToRight {
+                                    visibility: visible;
+                                    animation-name: fadeToRight;
+                                    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+                                }
+                                @keyframes fadeToRight {
+                                0% {
+                                    opacity: 0;
+                                    -webkit-transform: translateX(-50px);
+                                    -ms-transform: translateX(-50px);
+                                    transform: translateX(-50px);
+                                }
+                                100% {
+                                    opacity: 1;
+                                    -webkit-transform: translateY(0);
+                                    -ms-transform: translateY(0);
+                                    transform: translateY(0);
+                                }
+                                }
+                                @-webkit-keyframes blurOn2 {
+                                0% {
+                                    opacity: 0;
+                                    -webkit-transform: scale(1.15);
+                                    transform: scale(1.15);
+                                    -webkit-filter: blur(10px);
+                                    filter: blur(10px);
+                                }
+                                100% {
+                                    opacity: 1;
+                                    -webkit-transform: scale(1);
+                                    transform: scale(1);
+                                    -webkit-filter: blur(0);
+                                    filter: blur(0);
+                                }
+                                }
+                                @keyframes blurOn2 {
+                                0% {
+                                    opacity: 0;
+                                    -webkit-transform: scale(1.15);
+                                    transform: scale(1.15);
+                                    -webkit-filter: blur(10px);
+                                    filter: blur(10px);
+                                }
+                                100% {
+                                    opacity: 1;
+                                    -webkit-transform: scale(1);
+                                    transform: scale(1);
+                                    -webkit-filter: blur(0);
+                                    filter: blur(0);
+                                }
+                                }
+                                .blurOn2 {
+                                    visibility: visible;
+                                    -webkit-animation-name: blurOn2;
+                                    animation-name: blurOn2;
+                                    animation-duration: 1.4s;
+                                    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+                                }
+                                @keyframes blurOn {
+                                0% {
+                                    opacity: 0;
+                                    -webkit-filter: blur(10px);
+                                    filter: blur(10px);
+                                }
+                                100% {
+                                    opacity: 1;
+                                    -webkit-filter: blur(0);
+                                    filter: blur(0);
+                                }
+                                }
+                                .blurOn {
+                                    visibility: visible;
+                                    -webkit-animation-name: blurOn;
+                                    animation-name: blurOn;
+                                    animation-duration: 1.4s;
+                                }
+                                .fade {
+                                    visibility: visible;
+                                    animation-name: fade;
+                                    animation-duration: 1s;
+                                }
+                                @keyframes fade {
+                                0% {
+                                    opacity: 1;
+                                }
+                                100% {
+                                    opacity: 0;
+                                }
+                                }
+                                .fadeIn {
+                                    visibility: visible;
+                                    animation-name: fadeIn;
+                                    animation-duration: 1s;
+                                }
+                                @keyframes fadeIn {
+                                0% {
+                                    opacity: 0;
+                                }
+                                100% {
+                                    opacity: 1;
+                                }
+                                }
+                                .delay100{animation-delay: 0.1s;}
+                                .delay200{animation-delay: 0.2s;}
+                                .delay300{animation-delay: 0.3s;}
+                                .delay400{animation-delay: 0.4s;}
+                                .delay500{animation-delay: 0.5s;}
+                                .delay600{animation-delay: 0.6s;}
+                                .delay700{animation-delay: 0.7s;}
+                                .delay800{animation-delay: 0.8s;}
+                                .delay900{animation-delay: 0.9s;}
+                                .delay1000{animation-delay: 1s;}
+                                .delay1100{animation-delay: 1.1s;}
+                                .delay1200{animation-delay: 1.2s;}
+                                .delay1300{animation-delay: 1.3s;}
+                                .delay1400{animation-delay: 1.4s;}
+                                .delay1500{animation-delay: 1.5s;}
+                                .delay1600{animation-delay: 1.6s;}
+                                .delay1700{animation-delay: 1.7s;}
+                                .delay1800{animation-delay: 1.8s;}
+                                .delay1900{animation-delay: 1.9s;}
+                                .delay2000{animation-delay: 2s;}
+                                .delay2100{animation-delay: 2.1s}
+                                .delay2300{animation-delay: 2.3s;}
+                                .delay2500{animation-delay: 2.5s;}
+                                .delay3000{animation-delay: 3s;}
+                                .delay3200{animation-delay: 3.2s;}
+                                .delay3500{animation-delay: 3.5s;}
+                                .delay3600{animation-delay: 3.6s;}
+                                .delay5000{animation-delay: 5s;}
+
+                             
+                                .event50 .con01_1 {overflow: hidden;}
+                                .event50 .con01_1 .txt {
+                                    bottom: 0;
+                                }
+                                .event50 .con01_1 .txt01, .event50 .con01_1 .txt02, .event50 .con01_1 .txt03,
+                                .event50 .con01_1 .txt04, .event50 .con01_1 .txt05, .event50 .con01_1 .txt06,
+                                .event50 .con01_1 .txt07, .event50 .con01_1 .txt08, .event50 .con01_1 .txt09, .event50 .con01_1 .txt10 {
+                                    width: 29.583%;
+                                    left: 28.541%;
+                                }
+                                .event50 .con01_1 .txt11, .event50 .con01_1 .txt12 {
+                                    width: 10.46875%;
+                                    right: 29.0104%;
+                                }
+                                .event50 #con01 .nav50 {
+                                    position: absolute;
+                                    left: 0;
+                                    top: 0;
+                                    width: 100%;
+                                    height: 3.125vw;
+									background-image: url('images/event50_nav01.jpg');
+									background-repeat: no-repeat;
+									-webkit-background-size: cover;
+									background-size: cover;
+                                }
+                                .event50 #con01 .nav50.fixed {
+                                    position: fixed;
+                                    top: 80px !important;
+                                    left: 0;
+									right: 0;
+                                    z-index: 10;
+                                }
+                                .event50 #con01 .nav50 ul {
+                                    width: 70.833%; /*1360px*/
+                                    height: 100%;
+                                    margin: 0 auto;
+                                    display: flex;
+                                    padding: 0;
+                                    background-size: 100%;
+                                }
+                                .event50 #con01 .nav50 li:nth-child(1) {width: 26.838%;}
+                                .event50 #con01 .nav50 li:nth-child(2) {width: 26.102%;}
+                                .event50 #con01 .nav50 li:nth-child(3) {width: 25.147%;}
+                                .event50 #con01 .nav50 li:nth-child(4) {width: 22.941%;}
+                                .event50 #con01 .nav50 li a {
+                                    display: block;
+                                    width: 100%;
+                                    height: 100%;
+                                }
+                                .event50 .con01 {
+                                    height: 46.041vw;
+                                    overflow: hidden;
+                                }
+                                .event50 .con01 .img01 {
+                                    width: 100%;
+                                    top: 0;
+                                    left: 0;
+                                }
+                                .event50 .con01 .swiper {
+                                    position: absolute;
+                                    width: 187.083%;
+                                    left: 0;
+                                    bottom: 0;
+                                }
+                                .event50 .con01 .swiper .swiper-wrapper { 
+                                    -webkit-transition-timing-function: linear !important; 
+                                    transition-timing-function: linear !important; 
+                                }
+                                .event50 .con02 .txt, .event50 .con02 .img {
+                                    width: 100%;
+                                    left: 0;
+                                    top: 0;
+                                }
+                                .event50 .con03 .txt, .event50 .con03 .img01, .event50 .con03 .img02{
+                                    width: 100%;
+                                    left: 0;
+                                    top: 0;
+                                }
+                                .event50 .con03 .img03 {
+                                    width: 100%;
+                                    left: 0;
+                                    bottom: 0;
+                                }
+								.event50 .noticeBtn{
+                                    font-size: 0;
+                                    text-indent: -9999px;
+                                    display: block;
+                                    position: absolute; 
+                                    background-color: transparent;
+									left: 0;
+									right: 0;
+									bottom: 0;
+									margin: 0 auto;
+									width: 5.941143808995003%;
+									height: 1.5625%;
+									background-image: url('images/event50_notice_arr.png');
+									background-size: 13.08411214953271% 26.66666666666667%;
+									background-repeat: no-repeat;
+									background-position: right 10% top 52%;
+									transform:scaleY(1);
+                                }
+								.event50 .noticeBtn.on{
+									transform:scaleY(-1);
+									background-position: right 10% top 52%;
+								}
+								.event50 .notice{
+									display: none;
+								}
+								.event50 .notice_bottom{
+									width: 100%;
+									height: 8.59375vw;
+									background-color: #111;
+								}
+								.event50 #con04 .swiper-container {
+									position: absolute;
+									left: 0;
+									bottom: 29.79890310786106%;
+									width: 100%;
+								}
+								.event50 #con04 .swiper-container .swiper-wrapper { -webkit-transition-timing-function: linear !important; transition-timing-function: linear !important; }
+								.event50 #con04 .swiper-container .swiper-wrapper .swiper-slide { opacity: 1; background: transparent; position: relative; }
+								.event50 #con04 .swiper-container .swiper-wrapper .swiper-slide:hover .slide_hover{
+									opacity: 1;
+								}
+								.event50 #con04 .swiper-container .slide_hover{
+									position: absolute;
+									top: 0;
+									left: 0;
+									width: 100%;
+									opacity: 0;
+									transition:.3s ease all;
+									display: block;
+								}
+								/* .event50 #con04 .swiper-container .swiper-slide.on .slide_hover{
+									display: block;
+								} */
+                                </style>
+                            <div class="full-width">
+                                <div class="event50">
+                                    <div class="tit rel">
+                                        <div class="tit_top rel">
+                                            <div class="video_wrap">
+                                                <div class="video">
+                                                    <iframe width="452" height="803" src="https://www.youtube.com/embed/vNg7PWfhw44?rel=0&amp;autoplay=1&amp;mute=1&amp;playlist=vNg7PWfhw44&amp;loop=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                                </div>
+                                            </div>
+                                            <!-- 1. kolon -->
+                                            <div class="txtWrap txtWrap01 delay2000 animated">
+                                                <p class="txt txt01 txt-1 animated"></p> <!-- k -->
+                                                <p class="txt txt02 txt-1 animated delay300"></p> <!-- o -->
+                                                <p class="txt txt03 txt-1 animated delay600"></p> <!-- l -->
+                                                <p class="txt txt04 txt-1 animated"></p> <!-- o -->
+                                                <p class="txt txt05 txt-1 animated delay300"></p> <!-- n -->
+                                                <p class="txt txt06 txt-1 animated delay600"></p> <!-- s -->
+                                                <p class="txt txt07 txt-1 animated"></p> <!-- p -->
+                                                <p class="txt txt08 txt-1 animated delay300"></p> <!-- o -->
+                                                <p class="txt txt09 txt-1 animated delay600"></p> <!-- r -->
+                                                <p class="txt txt10 txt-1 animated delay300"></p> <!-- t -->
+                                            </div>
+                                            <!-- 1. 50 -->
+                                            <div class="txtWrap txtWrap02 animated delay3000">
+                                                <p class="txt txt11 animated txt50 white delay600">
+                                                    <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+                                                    width="304.000000pt" height="187.000000pt" viewBox="0 0 304.000000 187.000000"
+                                                    preserveAspectRatio="xMidYMid meet">
+                                                    <g transform="translate(0.000000,187.000000) scale(0.100000,-0.100000)"
+                                                    fill="#000000" stroke="none">
+                                                        <path d="M2165 1859 c-363 -42 -596 -310 -644 -743 -31 -273 5 -529 100 -725
+                                                        43 -89 64 -117 133 -186 64 -64 99 -91 166 -123 126 -62 191 -76 350 -76 158
+                                                        0 223 14 350 75 69 34 101 58 170 128 71 71 94 103 132 181 77 155 108 316
+                                                        108 548 0 333 -79 564 -249 732 -115 114 -238 170 -416 190 -99 11 -100 11
+                                                        -200 -1z m218 -392 c92 -26 167 -134 203 -292 24 -106 25 -376 1 -483 -48
+                                                        -217 -168 -326 -340 -308 -147 15 -232 111 -274 309 -24 110 -24 380 0 485 56
+                                                        250 198 350 410 289z"/>
+                                                        <path d="M237 1797 c-4 -12 -47 -211 -97 -442 -50 -231 -93 -427 -96 -437 -4
+                                                        -13 28 -27 178 -77 101 -34 190 -61 199 -61 8 0 28 13 43 29 49 51 119 76 216
+                                                        75 72 0 93 -4 135 -26 61 -32 87 -59 114 -118 27 -59 28 -169 2 -225 -23 -51
+                                                        -85 -107 -144 -130 -62 -23 -175 -17 -233 13 -63 32 -122 105 -141 174 -9 32
+                                                        -21 58 -27 58 -24 -1 -376 -77 -382 -83 -11 -11 26 -140 59 -202 19 -36 64
+                                                        -93 112 -140 124 -125 273 -190 465 -202 103 -7 225 9 322 42 200 68 352 230
+                                                        403 430 35 137 11 350 -52 468 -67 125 -211 227 -369 263 -149 33 -356 7 -444
+                                                        -56 -17 -12 -30 -19 -30 -16 0 7 60 287 66 309 5 16 31 17 370 17 l364 0 0
+                                                        180 0 180 -514 0 -514 0 -5 -23z"/>
+                                                    </g>
+                                                    </svg>
+                                                </p>
+                                            </div>
+                                            <!-- 1. evergreen -->
+                                            <div class="txtWrap txtWrap03 delay2000 animated">
+                                                <img src="images/event50_tit_txt02.png" alt="" class="animated txt txt-1">
+                                            </div>
+                                        </div>
+                                        <div class="tit_bot rel">
+                                            <img src="images/event50_tit_img02.jpg" alt="">
+                                            <p class="txt txt01"><img src="images/event50_logo_big.png" alt="" class="animated"></p>
+                                            <p class="txt txt02"><img src="images/event50_tit_bot_txt02.png" alt="" class="animated"></p>
+                                            <p class="txt txt03"><img src="images/event50_tit_bot_txt03.png" alt="" class="animated delay200"></p>
+                                            <p class="txt txt04"><img src="images/event50_tit_bot_txt04.png" alt="" class="animated delay400"></p>
+                                        </div>
+                                    </div>
+                                    <div class="con con01_1 rel" id="con01">
+										<img src="images/event50_con01_1.jpg" alt="">
+										<div class="nav50">
+                                            <ul>
+                                                <li><a href="#con01"></a></li>
+                                                <li><a href="#con02"></a></li>
+                                                <li><a href="#con03"></a></li>
+												<li><a href="#con04"></a></li>
+                                            </ul>
+                                        </div>
+                                        <p class="txt txt01"><img src="images/event50_con01_1_txt01_1.png" alt="" class="animated"></p>
+                                        <p class="txt txt02"><img src="images/event50_con01_1_txt01_2.png" alt="" class="animated"></p>
+                                        <p class="txt txt03"><img src="images/event50_con01_1_txt01_3.png" alt="" class="animated delay100"></p>
+                                        <p class="txt txt04"><img src="images/event50_con01_1_txt01_4.png" alt="" class="animated delay100"></p>
+                                        <p class="txt txt05"><img src="images/event50_con01_1_txt01_5_1.png" alt="" class="animated delay200"></p>
+                                        <p class="txt txt06"><img src="images/event50_con01_1_txt01_5.png" alt="" class="animated delay200"></p>
+                                        <p class="txt txt07"><img src="images/event50_con01_1_txt01_6.png" alt="" class="animated delay300"></p>
+                                        <p class="txt txt08"><img src="images/event50_con01_1_txt01_7.png" alt="" class="animated delay300"></p>
+                                        <p class="txt txt09"><img src="images/event50_con01_1_txt01_8.png" alt="" class="animated delay400"></p>
+                                        <p class="txt txt10"><img src="images/event50_con01_1_txt01_9.png" alt="" class="animated delay400"></p>
+                                        <p class="txt txt11"><img src="images/event50_con01_1_txt02_1.png" alt="" class="animated delay500"></p>
+                                        <p class="txt txt12"><img src="images/event50_con01_1_txt02_2.png" alt="" class="animated delay500"></p>
+									</div>
+                                    <div class="con con01 rel">
+                                        <p class="img img01"><img src="images/event50_con01_img01.png" alt="" class="animated delay800"></p>
+                                        <div class="swiper">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide"><img src="images/event50_con01_slide01.png" alt=""></div>
+                                                <div class="swiper-slide"><img src="images/event50_con01_slide01.png" alt=""></div>
+                                            </div>
+                                        </div>
+									</div>
+									<div class="con con02 rel" id="con02">
+										<img src="images/event50_con02.jpg" alt="" usemap="#con02Map">
+                                        <map name="con02Map" id="con02Map">
+                                            <area shape="rect" target="_blank" coords="754,938,1167,1012" href="https://booking.naver.com/booking/6/bizes/976853" alt="전시 예약하기">
+                                            <area shape="rect" target="_blank" coords="753,1607,1166,1683" href="https://naver.me/FS5IqcUp" alt="전시장 지도 보기">
+                                        </map>
+                                        <p class="txt txt01"><img src="images/event50_con02_txt01.png" alt="" class="animated"></p>
+                                        <p class="txt txt02"><img src="images/event50_con02_txt02.png" alt="" class="animated delay200"></p>
+                                        <p class="txt txt03"><img src="images/event50_con02_txt03.png" alt="" class="animated delay400"></p>
+                                        <p class="img img01"><img src="images/event50_con02_img01.png" alt="" class="animated delay800"></p>
+                                        <p class="img img02"><img src="images/event50_con02_img02.png" alt="" class="animated delay1000"></p>
+                                        <p class="img img03"><img src="images/event50_con02_img03.png" alt="" class="animated delay1200"></p>
+									</div>
+                                    <!-- 공연 응모 -->
+									<div class="con con03 rel" id="con03">
+										<img src="images/event50_con03.jpg" alt="">
+                                        <p class="txt txt01"><img src="images/event50_con03_txt01.png" alt="" class="animated"></p>
+                                        <p class="txt txt02"><img src="images/event50_con03_txt02.png" alt="" class="animated delay200"></p>
+                                        <p class="txt txt03"><img src="images/event50_con03_txt03.png" alt="" class="animated delay400"></p>
+                                        <p class="img img01"><img src="images/event50_con03_img01.png" alt="" class="animated delay800"></p>
+                                        <p class="img img02"><img src="images/event50_con03_img02.png" alt="" class="animated delay1000"></p>
+                                        <p class="img img03"><img src="images/event50_con03_img03.png" alt="" class="animated" usemap="#con03Map"></p>
+                                        <map name="con03Map" id="con03Map">
+                                            <area shape="rect" target="_blank" coords="747,562,1170,646" href="#" alt="전시 공연 응모하기">
+                                        </map>
+										<a href="javascript:void(0)" class="btn noticeBtn"></a>
+									</div>
+                                    <!-- //공연 응모 -->
+									<div class="notice">
+										<img src="images/event50_notice.jpg" alt="">										
+									</div>
+									<div class="notice_bottom"></div>
+                                    <div class="con con04 rel" id="con04">
+										<img src="images/event50_con04_coming.jpg" alt="">
+                                    </div>
+									<div class="con con04 rel" id="con04">
+										<img src="images/event50_con04.jpg" alt="" usemap="#con04Map">
+                                        <map name="con04Map" id="con04Map">
+                                            <area shape="rect" target="_blank" coords="726,852,1196,927" href="#" alt="50주년 아카이브 방문하기">
+                                        </map>
+										<div class="swiper-container">
+											<div class="swiper-wrapper">
+												<div class="swiper-slide">
+													<img src="images/event50_con04_slide01.png" alt="">
+													<img src="images/event50_con04_slide01_over.png" alt="" class="slide_hover">
+												</div>
+												<div class="swiper-slide">
+													<img src="images/event50_con04_slide01.png" alt="">
+													<img src="images/event50_con04_slide01_over.png" alt="" class="slide_hover">
+												</div>
+												<div class="swiper-slide">
+													<img src="images/event50_con04_slide01.png" alt="">
+													<img src="images/event50_con04_slide01_over.png" alt="" class="slide_hover">
+												</div>
+												<div class="swiper-slide">
+													<img src="images/event50_con04_slide01.png" alt="">
+													<img src="images/event50_con04_slide01_over.png" alt="" class="slide_hover">
+												</div>
+												<div class="swiper-slide">
+													<img src="images/event50_con04_slide01.png" alt="">
+													<img src="images/event50_con04_slide01_over.png" alt="" class="slide_hover">
+												</div>
+												<div class="swiper-slide">
+													<img src="images/event50_con04_slide01.png" alt="">
+													<img src="images/event50_con04_slide01_over.png" alt="" class="slide_hover">
+												</div>
+											</div>
+										</div>
+									</div> 
+									<div class="conBottom"></div>
+                                </div>	
+                            </div>
+	                        <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-rwdImageMaps/1.6/jquery.rwdImageMaps.min.js"></script>
+                            <script>
+								scriptQueue.push(function () {
+									$(document).ready(function() {
+                                        $('.event50 img[usemap]').rwdImageMaps();
+
+                                        $(".event50 .nav50 a").on('click', function(event) {
+                                            event.preventDefault();
+                                            var target = $(this.hash);
+                                            var offset_top = target.offset().top - 110 ; 
+                                            $('html, body').animate({scrollTop:offset_top}, 800);
+                                        });
+										
+										$(".event50  .noticeBtn").click(function(){
+                                            $(this).toggleClass("on");
+                                            $(".event50 .notice").slideToggle(500);
+                                        });
+
+										/*$(".event50 #con04 .swiper-container .swiper-slide").click(function(){
+                                            $(this).toggleClass("on");
+                                        });*/
+
+                                        var Swiper1 = new Swiper('.event50 .con01 .swiper', {
+											spaceBetween: 10,
+											centeredSlides: false,
+											speed: 20000,
+											autoplay: {
+												delay: 1,
+											},
+											loop: true,
+											slidesPerView: 1,
+											allowTouchMove: false,
+											disableOnInteraction: true
+										});
+										var SwiperTop = new Swiper('.event50 #con04 .swiper-container', {
+											spaceBetween: 0,
+											centeredSlides: false,
+											speed: 8000,
+											autoplay: {
+												delay: 1,
+											},
+											loop: true,
+											slidesPerView: 6,
+											allowTouchMove: false,
+											disableOnInteraction: true
+										});
+									});
+                                    $(window).scroll(function(e){
+                                        e.preventDefault();
+                                        var winTop = $(this).scrollTop();
+                                        var tit_top = $(".event50 .tit_top .txt").offset().top - 700;
+                                        var tit_bot = $(".event50 .tit_bot .txt01").offset().top - 1000;
+                                        var con01_1Txt01 = $(".event50 .con01_1").offset().top - 700;
+                                        var con01Img01 = $(".event50 .con01 .img01").offset().top - 700;
+                                        var con02Txt01 = $(".event50 .con02 .txt01").offset().top - 700;
+                                        var con03Txt01 = $(".event50 .con03 .txt01").offset().top - 700;
+                                        var con03Img03 = $(".event50 .con03 .img03").offset().top - 700;
+
+                                        if(tit_top < winTop && winTop < tit_bot){
+                                            $(".event50 .tit_top .txt").addClass("blurOn");
+                                        }
+                                        if(tit_bot < winTop && winTop < con01_1Txt01){
+                                            $(".event50 .tit_bot .txt01 .animated").addClass("blurOn2");
+                                            $(".event50 .tit_bot .txt02 .animated").addClass("fadeToTop");
+                                            $(".event50 .tit_bot .txt03 .animated").addClass("fadeToTop");
+                                            $(".event50 .tit_bot .txt04 .animated").addClass("fadeToTop");
+                                        }
+                                        if(con01_1Txt01 < winTop && winTop < con01Img01){
+                                            $(".event50 .con01_1 .txt .animated").addClass("fadeToTop")
+                                        }
+                                        if(con01Img01 < winTop && winTop < con02Txt01){
+                                            $(".event50 .con01 .img01 .animated").addClass("blurOn2")
+                                        }
+                                        if(con02Txt01 < winTop && winTop < con03Txt01){
+                                            $(".event50 .con02 .txt .animated").addClass("fadeToTop")
+                                            $(".event50 .con02 .img .animated").addClass("fadeToRight")
+                                        }
+                                        if(con03Txt01 < winTop && winTop < con03Img03){
+                                            $(".event50 .con03 .txt .animated").addClass("fadeToTop")
+                                            $(".event50 .con03 .img01 .animated").addClass("fadeToTop")
+                                            $(".event50 .con03 .img02 .animated").addClass("fadeToBottom3")
+                                        }
+                                        if(con03Img03 < winTop){
+                                            $(".event50 .con03 .img03 .animated").addClass("blurOn2")
+                                        }
+
+
+
+
+
+                                        var scr = $(this).scrollTop()
+										var topArea = $('.event50 #con01').offset().top
+										if (scr > topArea) {
+											$('.event50 #con01 .nav50').addClass('fixed')
+										} else {
+											$('.event50 #con01 .nav50').removeClass('fixed')
+										}
+
+										var footer = $('.conBottom').offset().top - 164
+										if (scr > footer) {
+											$('.event50 #con01 .nav50').css('display', 'none')
+										} else {
+											$('.event50 #con01 .nav50').css('display', 'block')
+										}
+
+										var cont01 = $('.event50 #con01').offset().top - 140;
+										var cont02 = $('.event50 #con02').offset().top - 140;
+										var cont03 = $('.event50 #con03').offset().top - 140;
+										var cont04 = $('.event50 #con04').offset().top - 140;
+
+										if (scr >= cont01) {
+											$('.event50 .nav50').css({
+												'background-image':
+													'url(images/event50_nav01.jpg)',
+											});
+										}
+										if (scr >= cont02) {
+											$('.event50 .nav50').css({
+												'background-image':
+													'url(images/event50_nav02.jpg)',
+											});
+										}
+										if (scr >= cont03) {
+											$('.event50 .nav50').css({
+												'background-image':
+													'url(images/event50_nav03.jpg)',
+											});
+										}
+										if (scr >= cont04) {
+											$('.event50 .nav50').css({
+												'background-image':
+													'url(images/event50_nav04.jpg)',
+											});
+										}
+                                    });
+								});
+                            </script>
+						</div>
+    					<!-- 210708 detail-cont-wrapper : e -->
+    				</div>
+    				<!-- prod-wrap -->
+    			</article>
+
+    		</section>
+
+
+        </div>
+
+        <h2 class="hidden">KOLONmall 정책 밑 사이트 정보 영역</h2>
+        <footer>
+            <div class="footer">
+        		<div class="f-cnt cnt-left">
+        			<h3 class="f-logo">KOLONmall</h3>
+        			<ul class="kl-industry">
+        				<li>코오롱인더스트리 FnC부문 &#47; 대표이사 : 박동문 &#47; 서울특별시 강남구 삼성로 518</li>
+        				<li>대표메일주소 : kolonmall@kolon.com​ &#47; TEL : 1588-7667 &#47; FAX : 02-3677-7546</li>
+        				<li>통신판매업신고 : 제2017-서울강남-02297호 &#47; 사업자등록번호 : 138-85-19612 
+        					<a href="http://www.ftc.go.kr/info/bizinfo/communicationView.jsp?apv_perm_no=2017322016230202297&area1=&area2=&currpage=1&searchKey=04&searchVal=1388519612&stdate=&enddate=" target="_blank">사업자정보 확인</a>
+        				</li>
+        			</ul>
+        			<i class="logo-uplus"></i>
+        			<p class="noti">고객님은 안전거래를 위해 결제 시 저희 사이트에서 가입한 LG U+의 구매안전 서비스를 이용하실 수 있습니다. <a href="https://pgweb.uplus.co.kr/ms/escrow/s_escrowYn.do?mertid=joykolon" target="_blank">가입확인</a></p>
+        			<p class="copyright">Copyright ⓒ KOLONmall all rights reserved</p>
+        		</div>
+        		<div class="f-cnt cnt-right">
+        			<div class="e-kolon">
+                        <a href="/FAQ"><h4>고객센터</h4></a>
+        				<ul>
+        					<li><a href="/Store">매장안내</a></li>
+        					<li><a data-target=".layer-alliance" data-trigger="layer">입점&#47;제휴문의</a></li>
+        					<li><a href="/Notice">공지사항</a></li>
+        					<li><a href="/TermsAndConditions/Online">이용약관</a></li>
+        					<li><a href="/TermsAndConditions/Privacy">개인정보처리방침</a></li>
+        				</ul>
+        			</div>
+        			<div class="cstm">
+        				<ul>
+        					<li><a href="/Order/List">주문배송 조회</a></li>
+        					<li><a href="/GuestOrder">비회원 주문조회</a></li>
+        					<li><a id="footerRMAListBtn" data-is-authenticated="false">교환반품 신청</a></li>
+        					<li><a href="/Contact">1:1 문의</a></li>
+        					<li><a href="/FAQ">FAQ</a></li>
+        				</ul>
+        			</div>
+        			<div class="callcenter">
+        				<ul>
+        					<li class="call-no">1588-7667</li>
+        					<li>AM 09:30 ~ PM 06:00</li>
+        					<li>(토, 일, 공휴일 휴무)</li>
+        				</ul>
+        			</div>
+        		</div>
+        		<div class="box-sns">
+        			<a class="sns kolon-app">KOLONmall APP</a>
+        			<i></i>
+        			<a target="_blank" href="https://www.facebook.com/kolonmall.official" class="sns facebook">Facebook</a>
+        		</div>
+        		<button type="button" class="btn-top">Top</button>
+            </div>
+        </footer>
+        <section class="layer-popup layer-alliance">
+            <div class="layer large">
+                <div class="inner">
+                    <div class="head">
+                        <h1>쇼핑몰 제휴 및 광고 제안</h1>
+                        <button type="button" class="close proposalFormCancelBtn">레이어 닫기</button>
+                    </div>
+                    <div class="content">
+                        <p class="note">
+                            코오롱 패션 통합몰 KOLONmall과 함께 하는 길은 언제나 열려 있습니다.<br>
+                            쇼핑몰 제휴 및 신규서비스, B2B광고제안 등 조이코오롱과 함께 하실 분들은 언제든지 제안주세요.<br>
+                            보내주시는 모든 제휴 제안은 항상 긍정적으로 검토 후 회신 드립니다.
+                        </p>
+                        <form id="proposalForm">
+                            <input type="hidden" name="CSRFToken" value="2403e60a-ba41-44f1-8be9-ed38b6aaebaf" />
+                            <input type="hidden" id="ems_m_email" name="ems_m_email" value="kolonmall@kolon.com">
+                            <input type="hidden" id="ems_m_name" name="ems_m_name" value="제휴담당자">
+                            <dl class="alliance-form">
+                                <dt>이름</dt>
+                                <dd>
+                                    <span class="col-1"><input type="text" name="name" id="from_name" placeholder="담당자 이름을 입력해 주세요."></span>
+                                </dd>
+                                <dt>연락처</dt>
+                                <dd>
+                                    <span class="col-1"><input type="tel" name="telno" id="telno" placeholder="‘-’ 를 제외한 숫자만 입력하세요." maxlength="11"></span>
+                                </dd>
+                                <dt>회사명</dt>
+                                <dd>
+                                    <span class="col-1"><input type="text" name="company" id="company" placeholder="회사명을 입력해 주세요."></span>
+                                </dd>
+                                <dt>이메일</dt>
+                                <dd>
+                                    <div class="inline-form col-1">
+                                        <input type="text" name="from_email1" id="from_email1" placeholder="" />
+                                        <span class="split">@</span>
+                                        <input type="text" name="from_email2" id="from_email2" placeholder="" />
+                                    </div>
+                                    <span class="select col-2">
+                                        <select>
+                                            <option id="direct" value="">직접입력</option>
+                                            <option id="naver" value="naver.com">naver.com</option>
+                                            <option id="nate" value="nate.com">nate.com</option>
+                                            <option id="hanmail" value="hanmail.net">hanmail.net</option>
+                                        </select>
+                                        <input type="hidden" name="email" id="from_email" value=""/>
+                                    </span>
+                                </dd>
+                                <dt>제목</dt>
+                                <dd>
+                                    <input type="text" name="title" id="title" placeholder="제목을 입력하세요.">
+                                </dd>
+                                <dt>내용</dt>
+                                <dd>
+                                    <textarea name="content" id="content" placeholder="내용을 입력하세요."></textarea>
+                                </dd>
+                            </dl>
+                            <div class="agree">
+                                <span class="checkbox">
+                                    <input type="checkbox" id="agree" name="agree">
+                                    <i></i>
+                                </span>
+                                <label for="agree">개인정보 수집, 이용 등에 대한 동의</label>
+                                <div class="text">
+                                    <dl>
+                                        <dd>코오롱 인더스트리 FnC부문은 매장 개설 문의 및 접수하는 개인을 대상으로 아래와 같이 개인정보를 수집하고 있습니다.</dd>
+                                        <dt>01. 수집하는 개인정보 항목</dt>
+                                        <dd>이름, 메일 주소, 전화번호, 회사명</dd>
+                                        <dt>02. 개인정보의 수집 및 이용목적 </dt>
+                                        <dd>개인 또는 기업의 제휴 확인 및  원활한 의사 소통 경로 확보</dd>
+                                        <dt>03. 개인정보의 이용기간 </dt>
+                                        <dd>접수한 날로부터 3개월간 이용자의 조회를 위하여 보관하며, 이 후 해당 정보를 지체없이 파기합니다.</dd><br>
+                                        <dd>
+                                            <ul>
+                                                <li id="list_style_disc">위와 같은 개인정보수집동의를 거부할 수 있습니다. 다만 동의를 거부하는 경우 문의,접수 신청이 제한될 수 있습니다.</li>
+                                                <li id="list_padding_left_20">그 밖의 사항은 개인정보처리방침을 준수합니다.</li>
+                                            </ul>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="foot">
+                        <button type="button" class="btn btn-line proposalFormCancelBtn">취소</button>
+                        <a class="btn" id="proposalFormSubmitBtn" data-style="zoom-in">확인</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class="layer-popup layer-share">
+        <div class="layer auto">
+            <div class="inner">
+                <div class="head">
+                    <h1>SNS공유</h1>
+                    <button type="button" class="close">레이어 닫기</button>
+                </div>
+                <div class="content">
+                    <div class="sns-wrap">
+                        <a class="share-facebook">
+                            <img src="" />페이스북
+                        </a>
+                        <a class="share-url">
+                            <img src="" />URL복사
+                        </a>
+                    </div>
+                    <button type="button" class="btn btn-line close-layer">닫기</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="layer-popup layer-app-oskiload">
+      <div class="layer">
+        <div class="inner">
+          <div class="head">
+            <h1>KOLON mall APP 다운로드</h1>
+            <button type="button" class="close">레이어 닫기</button>
+          </div>
+          <div class="content">
+            <div class="url-wrap">
+              <h3>휴대폰으로 APP 다운로드 URL 보내기</h3>
+              <form id="sendSmsForm">
+                <input type="hidden" name="CSRFToken" value="2403e60a-ba41-44f1-8be9-ed38b6aaebaf" />
+                <div class="phone-number">
+                  <select name="phone_1">
+                    <option selected value="010">010</option>
+                    <option value="011">011</option>
+                    <option value="016">016</option>
+                    <option value="018">018</option>
+                    <option value="019">019</option>
+                  </select>
+                  <span class="dash">-</span>
+                  <input name="phone_2" type="tel" maxlength="4">
+                  <span class="dash">-</span>
+                  <input name="phone_3" type="tel" maxlength="4">
+                  <button class="btn">발송</button>
+                </div>
+              </form>
+            </div>
+            <div class="qr-wrap">
+              <h3>QR코드로 다운로드하기</h3>
+              <div class="qr-box">
+                <img src="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section> 
+    <div class="layer-popup layer-ie-upgrade"></div>
+
+    <!--<script src="_ui/js/build/vendor.dll.js"></script>-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.js"></script>
+    <script src="_ui/js/build/handlebars.bundle.js"></script>
+    <script src="_ui/js/build/kop/desktop.bundle.js"></script>
+    <script src="_ui/js/build/joykolon/desktop.bundle.js"></script>
+    <script src="_ui/js/lib/jquery.bxslider.js"></script>
+    <script>
+        $(function() {
+            $(document).trigger('desktop:load');
+            $(document).trigger('desktop:Content:load');
+            while (scriptQueue.length) {
+                scriptQueue.shift()();
+            }
+        });
+    </script>
+    <script>
+        var _userLoggedIn = false;
+        var _userId = 'anonymous';
+    </script>
+</body>
+</html>
